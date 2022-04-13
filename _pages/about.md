@@ -17,9 +17,9 @@ I received my BS. degree (honors program) from [VNUHCM - University of Science](
 
 ## Selected News
 
-1. Our premier work on deep master face was published for [IJCB 2020](https://ieeexplore.ieee.org/document/9304893) ([arXiv](https://arxiv.org/abs/2006.08376)) and IEEE T-BIOM ([arXiv](https://arxiv.org/abs/1810.11215))
+1. Our premier work on deep master face was published in [IJCB 2020](https://ieeexplore.ieee.org/document/9304893) ([arXiv](https://arxiv.org/abs/2006.08376)) and IEEE T-BIOM ([arXiv](https://arxiv.org/abs/1810.11215))
 2. Our book chapters on deepfake detection were published in [Handbook of Digital Face Manipulation and Detection - From DeepFakes to Morphing Attacks](https://link.springer.com/book/10.1007/978-3-030-87664-7) ([implementation](https://github.com/nii-yamagishilab/Capsule-Forensics-v2)) and [Frontiers in Fake Media Generation and Detection](https://link.springer.com/book/9789811915239).
-3. Our early work on deepfake detectin and segmentation was published for [ICASSP 2019](https://ieeexplore.ieee.org/document/8682602) ([arXiv](https://arxiv.org/abs/1810.11215), [implementation](https://github.com/nii-yamagishilab/Capsule-Forensics)) and [BTAS 2019](https://ieeexplore.ieee.org/document/9185974) ([arXiv](https://arxiv.org/abs/1906.06876), [implementation](https://github.com/nii-yamagishilab/ClassNSeg)).
+3. Our early work on deepfake detectin and segmentation was published in [ICASSP 2019](https://ieeexplore.ieee.org/document/8682602) ([arXiv](https://arxiv.org/abs/1810.11215), [implementation](https://github.com/nii-yamagishilab/Capsule-Forensics)) and [BTAS 2019](https://ieeexplore.ieee.org/document/9185974) ([arXiv](https://arxiv.org/abs/1906.06876), [implementation](https://github.com/nii-yamagishilab/ClassNSeg)).
 
 ## Contact
 Please contact me at nhhuy \_at\_ nii \_dot\_ ac \_dot\_ jp
