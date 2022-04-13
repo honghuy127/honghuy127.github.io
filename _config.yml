@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Huy H. Nguyen's Personal Webpage"
+title                    : "Huy's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Huy H. Nguyen"
 description              : &description "Personal Academic Webpage"
@@ -85,7 +85,7 @@ author:
   bio              : "Postdoctoral researcher at the National Institute of Informatics, Tokyo, Japan."
   location         : "Tokyo, Japan"
   employer         :
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=8q1km_cAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Huy-Nguyen-187"
