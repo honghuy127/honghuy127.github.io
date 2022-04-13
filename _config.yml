@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Huy's Personal Webpage"
+title                    : "Huy's Webpage"
 title_separator          : "-"
 name                     : &name "Huy H. Nguyen"
 description              : &description "Personal Academic Webpage"
