@@ -11,9 +11,9 @@ title                    : "Huy H. Nguyen's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Huy H. Nguyen"
 description              : &description "Huy H. Nguyen's Personal Webpage"
-url                      : https://nhhuy.github.io
+url                      : https://honghuy127.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "honghuy127/nhhuy.github.io"
+repository               : "honghuy127/honghuy127.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
