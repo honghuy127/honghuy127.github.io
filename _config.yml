@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Huy H. Nguyen's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Huy H. Nguyen"
-description              : &description "Huy H. Nguyen's Personal Webpage"
+description              : &description "Personal Academic Webpage"
 url                      : https://honghuy127.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "honghuy127/honghuy127.github.io"
