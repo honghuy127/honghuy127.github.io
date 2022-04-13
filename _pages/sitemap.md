@@ -7,7 +7,8 @@ author_profile: true
 
 ### [About Me](https://honghuy127.github.io)
 ### [Projects](https://honghuy127.github.io/projects)
-### [Publication](https://honghuy127.github.io/publications)
+### [Publications](https://honghuy127.github.io/publications)
+### [Talks](https://honghuy127.github.io/talks)
 
 <!-- {% include base_path %}
 
