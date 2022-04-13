@@ -22,4 +22,4 @@ I received my BS. degree (honors program) from [VNUHCM - University of Science](
 3. Our early work on **deepfake detection and segmentation** was published in [ICASSP 2019](https://ieeexplore.ieee.org/document/8682602) ([arXiv](https://arxiv.org/abs/1810.11215), [implementation](https://github.com/nii-yamagishilab/Capsule-Forensics)) and [BTAS 2019](https://ieeexplore.ieee.org/document/9185974) ([arXiv](https://arxiv.org/abs/1906.06876), [implementation](https://github.com/nii-yamagishilab/ClassNSeg)).
 
 ## Contact
-Please contact me at nhhuy_at_nii_dot_ac_dot_ jp
+Please contact me at nhhuy_at_nii_dot_ac_dot_ jp.
