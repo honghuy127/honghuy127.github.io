@@ -19,7 +19,7 @@ author_profile: true
 
 ## Conferences
 1. T. N. Le, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "OpenForensics: Large-Scale Challenging Dataset for Multi-Face Forgery Detection and Segmentation In-The-Wild," International Conference on Computer Vision (ICCV) 2021.
-2. M. Treu\*, T. N. Le\*, T. N. Le*, **H. H. Nguyen\***, J. Yamagishi, and I. Echizen, "Fashion-Guided Adversarial Attack on Person Segmentation," Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2021.
+2. M. Treu\*, T. N. Le\*, **H. H. Nguyen\***, J. Yamagishi, and I. Echizen, "Fashion-Guided Adversarial Attack on Person Segmentation," Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2021.
 3. D.K. Nguyen, T. N. Le, H. H. Nguyen, J. Yamagishi, and I. Echizen, "Effectiveness of Detection-based and Regression-based Approaches for Estimating Mask-Wearing Ratio," Workshop on Face and Gesture Analysis for COVID-19 2021.
 4. Y. Yamasaki, M. Kuribayashi, N. Funabiki, **H. H. Nguyen**, I. Echizen, "Feature Extraction Based on Denoising AutoEncoder for Classification of Adversarial Examples," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2021.
 5. T.L. Do, M.K. Tran, **H. H. Nguyen**, M.T. Tran, "Potential Threat of Face Swapping to eKYC with Face Registration and Augmented Solution with DeepFake Detection," International Conference on Future Data and Security Engineering (FDSE) 2021.
