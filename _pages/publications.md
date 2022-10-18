@@ -18,7 +18,10 @@ author_profile: true
 
 
 ## Conferences
-1. T. N. Le\*, Ta Gu\*, **H. H. Nguyen\***, and I. Echizen, "Rethinking Adversarial Examples for Location Privacy Protection," International Workshop on Information Forensics and Security (WIFS) 2022.
+1. **H. H. Nguyen**, T. N. Le, J. Yamagishi, and I. Echizen, "Analysis of Master Vein Attacks on Finger Vein Recognition Systems," Winter Conference on Applications of Computer Vision (WACV) 2023.
+1. F. Waseda, S. Nishikawa, T. N. Le, **H. H. Nguyen**, and I. Echizen, "Closer Look at the Transferability of Adversarial Examples:
+How They Fool Different Models Differently," Winter Conference on Applications of Computer Vision (WACV) 2023.
+1. T. N. Le\*, T. Gu\*, **H. H. Nguyen\***, and I. Echizen, "Rethinking Adversarial Examples for Location Privacy Protection," International Workshop on Information Forensics and Security (WIFS) 2022.
 1. T. N. Le, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "OpenForensics: Large-Scale Challenging Dataset for Multi-Face Forgery Detection and Segmentation In-The-Wild," International Conference on Computer Vision (ICCV) 2021.
 1. M. Treu\*, T. N. Le\*, **H. H. Nguyen\***, J. Yamagishi, and I. Echizen, "Fashion-Guided Adversarial Attack on Person Segmentation," Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2021.
 1. D.K. Nguyen, T. N. Le, H. H. Nguyen, J. Yamagishi, and I. Echizen, "Effectiveness of Detection-based and Regression-based Approaches for Estimating Mask-Wearing Ratio," Workshop on Face and Gesture Analysis for COVID-19 2021.
