@@ -6,6 +6,8 @@ author_profile: true
 ---
 
 ## Journal Papers
+1. Y. Ji, T. N. Le, **H. H. Nguyen**, and I. Echizen, "Purifying Adversarial Images Using Adversarial Autoencoder with Conditional Normalizing Flows,"
+IEEE Open Journal of Signal Processing (2023).
 1. **H. H. Nguyen**, S. Marcel, J. Yamagishi, and I. Echizen, "Master Face Attacks on Face Recognition Systems," IEEE Transactions on Biometrics, Behavior, and Identity Science (2022).
 1. **H. H. Nguyen**, M. Kuribayashi, J. Yamagishi, and I. Echizen, "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images," IEICE Transactions on Information and Systems (2022).
 1. T.L. Do, M.K. Tran, **H. H. Nguyen**, M.T. Tran, "Potential Attacks of DeepFake on eKYC Systems and Remedy for eKYC with DeepFake Detection Using Two-Stream Network of Facial Appearance and Motion Features", SN Computer Science (2022).
