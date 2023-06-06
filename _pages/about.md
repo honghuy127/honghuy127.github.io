@@ -24,6 +24,14 @@ I received my BS. degree (honors program) from [VNUHCM - University of Science](
 1. Our paper on the [**OpenForensics dataset**](https://zenodo.org/record/5528418#.Ylay4JNBz0o) was published in [ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Le_OpenForensics_Large-Scale_Challenging_Dataset_for_Multi-Face_Forgery_Detection_and_Segmentation_ICCV_2021_paper.pdf) ([Implementation](https://github.com/ltnghia/openforensics)).
 1. Our early work on **deepfake detection and segmentation** was published in [ICASSP 2019](https://ieeexplore.ieee.org/document/8682602) ([arXiv](https://arxiv.org/abs/1810.11215), [implementation](https://github.com/nii-yamagishilab/Capsule-Forensics)) and [BTAS 2019](https://ieeexplore.ieee.org/document/9185974) ([arXiv](https://arxiv.org/abs/1906.06876), [implementation](https://github.com/nii-yamagishilab/ClassNSeg)).
 
+## Academic Activities
+1. **Reviewer**:
+  - **Conferences:** APSIPA ASC, ICME, ICML, WACV.
+  - **Journal:** IEEE (Access, TIP, TIFS), IEEE/CAA JAS, ACM TOMM, Elsevier (PRLETTERS, EAAI), EURASIP JIVP.
+2. **Session Chair**:
+  - APSIPA ASC 2020 Special Session: Deep Generative Models for Media Clones and Its Detection.
+  - APSIPA ASC 2023 Special Session: Multimedia Security and Privacy in the Age of Deep Learning.
+
 ## Contact
 Please contact me at
 
