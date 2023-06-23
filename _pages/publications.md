@@ -14,9 +14,6 @@ IEEE Open Journal of Signal Processing (2023).
 1. N. Babaguchi, I. Echizen, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Preventing Fake Information Generation Against Media Clone Attacks," IEICE Transactions on Information and Systems (2021).
 1. I. Echizen, N. Babaguchi, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Generation and detection of Media Clones," IEICE Transactions on Information and Systems (2021).
 1. N.-D. Tieu, **H. H. Nguyen**, H.-Q. Nguyen-Son, J. Yamagishi, and I. Echizen, "Spatio-temporal generative adversarial network for gait anonymization," Journal of Information Security and Applications (2019).
-1. 越前功, 馬場口登, 笹原和俊, Trung-Nghia Le, **Huy H. Nguyen**, 山岸順一, Canasai Kruengkrai, 中島悠太, 李良知, 王博文, 宮崎邦洋, 小林正啓, "インフォデミック時代のAIとサイバーセキュリティ", 映像情報メディア学会誌（2022）
-
-
 
 
 ## Conference Papers
@@ -52,7 +49,7 @@ How They Fool Different Models Differently," Winter Conference on Applications o
 1. **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Capsule-Forensics Networks for Deepfake Detection," Handbook of Digital Face Manipulation and Detection – From DeepFakes to Morphing Attacks (2022).
 1. R. Tolosana, C. Rathgeb, R. Vera-Rodriguez, C. Busch, L, Verdoliva, S. Lyu, **H. H. Nguyen**, J. Yamagishi, I. Echizen, P. Rot et al. "Future Trends in Digital Face Manipulation and Detection." Handbook of Digital Face Manipulation and Detection – From DeepFakes to Morphing Attacks (2022).
 1. T. N. Le, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Robust Deepfake on Unrestricted Media: Generation and Detection," Frontiers in Fake Media Generation and Detection (2022).
-
+1. 越前功, 馬場口登, 笹原和俊, Trung-Nghia Le, **Huy H. Nguyen**, 山岸順一, Canasai Kruengkrai, 中島悠太, 李良知, 王博文, 宮崎邦洋, 小林正啓, "インフォデミック時代のAIとサイバーセキュリティ", 映像情報メディア学会誌（2022）
 
 ## Others
 
