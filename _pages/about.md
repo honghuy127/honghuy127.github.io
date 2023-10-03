@@ -16,7 +16,8 @@ My research interests include security and privacy in biometrics and machine lea
 I received my BS. degree (honors program) from [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and my Ph.D. degree from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/) in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022. For more details, please have a look at my CV [here](https://github.com/honghuy127/honghuy127.github.io/blob/master/files/CV.pdf) (last update: Aug. 2023).
 
 ## Selected News
-1. Our pioneer work on **deepfake restoration**, namely Cyber Vaccine, was published in IEEE Access ([arXiv](https://arxiv.org/abs/2303.02659)).
+1. Our pioneer work on **deepfake restoration**, namely Cyber Vaccine, was published in [IEEE Access](https://ieeexplore.ieee.org/abstract/document/10238689).
+1. Our work on **measuring the similarities between other computer vision tasks to deepfake detection** was accepted to IJCB 2023 ([arXiv](https://arxiv.org/abs/2310.00922)). 
 1. Our collaborative paper on **physics-based adversarial attack on near-infrared human detector** with [Oscars Lab](https://oscarslab.github.io/aboutus.html) at the University of Tokyo was accepted to ACM Multimedia 2023 ([DOI](https://doi.org/10.1145/3581783.3612082), [implementation](https://github.com/MyNiuuu/AdvNIR)).
 1. Our paper on **adversarial image purification** was accepted to IEEE Open Journal of Signal Processing ([paper](https://ieeexplore.ieee.org/document/10123077), source code will be published soon).
 1. Two papers were accepted to WACV 2023. One is about **master vein attacks** on finger vein recognition systems ([arXiv](http://arxiv.org/abs/2210.10667)); the other is about the **theory of the non-robust features** on the transferability of adversarial examples ([arXiv](https://arxiv.org/abs/2112.14337)).
