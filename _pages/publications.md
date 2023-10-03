@@ -18,6 +18,9 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
+1. F. Shalabi\*, **H. H. Nguyen**\*, H. Felouat, C. C. Chang, and I. Echizen, "Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2023.
+1. M. Niu, Z. Li, Y. Zhan, **H. H. Nguyen**, I. Echizen, and Y. Zheng, "Physics-Based Adversarial Attack on Near-Infrared Human Detector for Nighttime Surveillance Camera Systems," ACM Multimedia (MM) 2023.
+1. **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "How Close are Other Computer Vision Tasks to Deepfake Detection?," International Joint Conference on Biometrics (IJCB) 2023.
 1. **H. H. Nguyen**, T. N. Le, J. Yamagishi, and I. Echizen, "Analysis of Master Vein Attacks on Finger Vein Recognition Systems," Winter Conference on Applications of Computer Vision (WACV) 2023, 1900-1908.
 1. F. Waseda, S. Nishikawa, T. N. Le, **H. H. Nguyen**, and I. Echizen, "Closer Look at the Transferability of Adversarial Examples: How They Fool Different Models Differently," Winter Conference on Applications of Computer Vision (WACV) 2023, 1360-1368.
 1. Y. Sun, Z. Zhang, I. Echizen, **H. H. Nguyen**, C. Qiu, and S. Lu, "Face Forgery Detection Based on Facial Region Displacement Trajectory Series,"  Winter Conference on Applications of Computer Vision Workshop (WACV-W) 2023, 633-642.
