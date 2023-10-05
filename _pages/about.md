@@ -13,7 +13,7 @@ I am **Huy H. Nguyen** (Nguyễn Hồng Huy in Vietnamese).
 I am currently a specially appointed assistant professor (特任助教) at [Echizen Laboratory](https://research.nii.ac.jp/~iechizen/official/index-e.html), [National Institute of Informatics](https://www.nii.ac.jp/en/), Tokyo, Japan. 
 My research interests include security and privacy in biometrics and machine learning, plus fake media generation and detection.
 
-I received my BS. degree (honors program) from [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and my Ph.D. degree from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/) in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022. For more details, please have a look at my CV [here](https://github.com/honghuy127/honghuy127.github.io/blob/master/files/CV.pdf) (last update: Aug. 2023).
+I received my BS. degree (honors program) from [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and my Ph.D. degree from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/) in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022. For more details, please have a look at my CV [here](https://github.com/honghuy127/honghuy127.github.io/blob/master/files/CV.pdf) (last update: Oct. 2023).
 
 ## Selected News
 1. Our pioneer work on **deepfake restoration**, namely Cyber Vaccine, was published in [IEEE Access](https://ieeexplore.ieee.org/abstract/document/10238689).
