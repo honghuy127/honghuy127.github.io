@@ -16,6 +16,8 @@ My research interests include security and privacy in biometrics and machine lea
 I received my BS. degree (honors program) from [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and my Ph.D. degree from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/) in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022. For more details, please have a look at my CV [here](https://github.com/honghuy127/honghuy127.github.io/blob/master/files/CV.pdf) (last update: Oct. 2023).
 
 ## Selected News
+1. A paper about [watermarking for LLMs](https://gitlab.com/folbaeni/linguistic-watermark) was accepted to ICASSP 2024.
+1. Two NLP papers ([detecting academic AI text](https://arxiv.org/abs/2401.08046) and multimodal out-of-context detection) were accepted to AINA 2024.
 1. Our pioneer work on **deepfake restoration**, namely Cyber Vaccine, was published in [IEEE Access](https://ieeexplore.ieee.org/abstract/document/10238689).
 1. Our work on **measuring the similarities between other computer vision tasks to deepfake detection** was accepted to IJCB 2023 ([arXiv](https://arxiv.org/abs/2310.00922)). 
 1. Our collaborative paper on **physics-based adversarial attack on near-infrared human detector** with [Oscars Lab](https://oscarslab.github.io/aboutus.html) at the University of Tokyo was accepted to ACM Multimedia 2023 ([DOI](https://doi.org/10.1145/3581783.3612082), [implementation](https://github.com/MyNiuuu/AdvNIR)).
