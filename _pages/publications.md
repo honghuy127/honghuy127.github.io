@@ -20,7 +20,7 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
-1. F. B. Baldassini, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Cross-Attention Watermarking of Large Language Model," International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.
+1. F. B. Baldassini, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Cross-Attention Watermarking of Large Language Models," International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.
 1. F. Shalabi, H. Felouat, **H. H. Nguyen**, and I. Echizen, "Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection," International Conference on Advanced Information Networking and Applications (AINA), 2024.
 1. Z. Dou, Y. Guo, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Enhancing Robustness of LLM-Synthetic Text Detectors for Academic Writing: A Comprehensive Analysis," International Conference on Advanced Information Networking and Applications (AINA), 2024.
 1. E. Bao, C. C. Chang, **H. H. Nguyen**, and I. Echizen, "From Deconstruction to Reconstruction: A Plug-in Module for Diffusion-Based Purification of Adversarial Examples," International Workshops on Digital-forensics and Watermarking (IWDW), 2023.
