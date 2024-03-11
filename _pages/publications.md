@@ -1,4 +1,4 @@
-![image](https://github.com/honghuy127/honghuy127.github.io/assets/27191586/5bc1e583-a749-4bc5-b7f8-17e63ad270b9)---
+---
 layout: archive
 title: "Publications"
 permalink: /publications/
