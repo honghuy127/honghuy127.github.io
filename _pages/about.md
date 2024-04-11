@@ -32,7 +32,7 @@ I received my BS. degree (honors program) from [VNUHCM - University of Science](
 
 ## Academic Activities
 1. **Reviewer**:
-  - **Conferences:** NeurIPS, ICLR, ICML, CVPR, WACV, ICME, ACL RR, APSIPA ASC.
+  - **Conferences:** NeurIPS, ICLR, ICML, CVPR, ECCV, WACV, ICME, ACL RR, APSIPA ASC.
   - **Journal:** IEEE (Access, TIP, TIFS), IEEE/CAA JAS, ACM TOMM, Elsevier (PRLETTERS, EAAI), EURASIP JIVP, IEICE.
 2. **Session Chair**:
   - APSIPA ASC 2020 Special Session: Deep Generative Models for Media Clones and Its Detection.
