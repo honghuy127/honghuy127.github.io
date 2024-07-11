@@ -12,10 +12,10 @@ author_profile: true
 1. Y. Ji, T.-N. Le, **H. H. Nguyen**, and I. Echizen, "Purifying Adversarial Images Using Adversarial Autoencoder with Conditional Normalizing Flows,"
 IEEE Open Journal of Signal Processing (2023), 267-274.
 1. **H. H. Nguyen**, S. Marcel, J. Yamagishi, and I. Echizen, "Master Face Attacks on Face Recognition Systems," IEEE Transactions on Biometrics, Behavior, and Identity Science (2022), 398-411.
-1. **H. H. Nguyen**, M. Kuribayashi, J. Yamagishi, and I. Echizen, "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images," IEICE Transactions on Information and Systems (2022), 65-77.
+1. **H. H. Nguyen**, M. Kuribayashi, J. Yamagishi, and I. Echizen, "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images," IEICE Transactions on Information and Systems (2022), 65-77. **[Best paper award]**
 1. T.-L. Do, M.-K. Tran, **H. H. Nguyen**, M.-T. Tran, "Potential Attacks of DeepFake on eKYC Systems and Remedy for eKYC with DeepFake Detection Using Two-Stream Network of Facial Appearance and Motion Features," SN Computer Science (2022), 3(6), 464 .
-1. N. Babaguchi, I. Echizen, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Preventing Fake Information Generation Against Media Clone Attacks," IEICE Transactions on Information and Systems (2021), 2-11.
-1. I. Echizen, N. Babaguchi, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Generation and detection of Media Clones," IEICE Transactions on Information and Systems (2021), 12-23.
+1. N. Babaguchi, I. Echizen, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Preventing Fake Information Generation Against Media Clone Attacks," IEICE Transactions on Information and Systems (2021), 2-11. **[IEICE-ISS Excellent Paper Award]**
+1. I. Echizen, N. Babaguchi, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Generation and detection of Media Clones," IEICE Transactions on Information and Systems (2021), 12-23. **[IEICE-ISS Excellent Paper Award]**
 1. N.-D. Tieu, **H. H. Nguyen**, H.-Q. Nguyen-Son, J. Yamagishi, and I. Echizen, "Spatio-temporal generative adversarial network for gait anonymization," Journal of Information Security and Applications (2019), 307-319.
 
 
@@ -45,13 +45,13 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 1. R. Huang, F. Fang, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Security of Facial Forensics Models Against Adversarial Attacks," International Conference on Image Processing (ICIP) 2020, 2236-2240.
 1. D. I. Adelani, H. Mai, F. Fang, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Generating Sentiment-Preserving Fake Online Reviews Using Neural Language Models and Their Human- and Machine-based Detection," International Conference on Advanced Information Networking and Applications (AINA) 2020, 1341-1354.
 1. **H. H. Nguyen**, J. Yamagishi, I. Echizen, and S. Marcel, "Generating Master Faces for Use in Performing Wolf Attacks on Face Recognition Systems," International Joint Conference on Biometrics (IJCB) 2020, 1-10.
-1. **H. H. Nguyen**, F. Fang, J. Yamagishi, and I. Echizen, "Multi-task Learning for Detecting and Segmenting Manipulated Facial Images and Videos," International Conference on Biometrics: Theory, Applications and Systems (BTAS) 2019, 1-8 **[BTAS/IJCB 5-Year Highest Impact Award]**.
+1. **H. H. Nguyen**, F. Fang, J. Yamagishi, and I. Echizen, "Multi-task Learning for Detecting and Segmenting Manipulated Facial Images and Videos," International Conference on Biometrics: Theory, Applications and Systems (BTAS) 2019, 1-8. **[BTAS/IJCB 5-Year Highest Impact Award]**
 1. **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Capsule-Forensics: Using Capsule Networks to Detect Forged Images and Videos," International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2019, 2307-2311.
 1. N.-D. Tieu, **H. H. Nguyen**, F. Fang, J. Yamagishi, and I. Echizen, "An RGB Gait Anonymization Model for Low Quality Silhouette," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2019, 1686-1693.
 1. H.-Q. Nguyen-Son, **H. H. Nguyen**, N.-D. Tieu, J. Yamagishi, and I. Echizen, "Identifying Computer-Translated Paragraphs using Coherence Features," Pacific Asia Conference on Language, Information and Computation (PACLIC) 2018, 486-494.
 1. **H. H. Nguyen**, T. N.-D. Tieu, H.-Q. Nguyen-Son, V. Nozick, J. Yamagishi, and I. Echizen, "Modular Convolutional Neural Network for Discriminating between Computer-Generated Images and Photographic Images," International Conference on Availability, Reliability and Security (ARES) 2018, 1-10.
 1. **H. H. Nguyen**, T. N.-D. Tieu, H.-Q. Nguyen-Son, J. Yamagishi, and I. Echizen, "Transformation on Computer-Generated Facial Image to Avoid Detection by Spoofing Detector," International Conference on Multimedia and Expo (ICME) 2018, 1-6.
-1. T. N.-D. Tieu, **H. H. Nguyen**, H. Nguyen-Son, J. Yamagishi, and I. Echizen, "An Approach for Gait Anonymization using Deep Learning," International Workshop on Information Forensics and Security (WIFS) 2017, 1-6 **[Best Paper Award]**.
+1. T. N.-D. Tieu, **H. H. Nguyen**, H. Nguyen-Son, J. Yamagishi, and I. Echizen, "An Approach for Gait Anonymization using Deep Learning," International Workshop on Information Forensics and Security (WIFS) 2017, 1-6. **[Best Paper Award]**
 1. H.-Q. Nguyen-Son, N.-D. Tieu, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Identifying computer-generated text using statistical analysis," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2017, 1504-1511.
 1. **H. H. Nguyen**, H. Nguyen-Son, and I. Echizen, "Discriminating between computer-generated facial images and natural ones using smoothness property and local entropy," International Workshop on Digital Watermarking (IWDW) 2015, 39-50.
 1. H. Nguyen, **H. H. Nguyen**, T. Hoang, D. Choi, and T. D. Nguyen, "A Generalized Authentication Scheme for Mobile Phones Using Gait Signals", International Conference on E-Business and Telecommunications 2015, 386-407.
@@ -66,3 +66,5 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 1. 越前功, 馬場口登, 笹原和俊, Trung-Nghia Le, **Huy H. Nguyen**, 山岸順一, Canasai Kruengkrai, 中島悠太, 李良知, 王博文, 宮崎邦洋, 小林正啓, "インフォデミック時代のAIとサイバーセキュリティ", 映像情報メディア学会誌76(4) (2022), 10-15.
 
 ## Others
+1. 東亮憲, 栗林稔, 舩曵信生, Nguyen Hong Huy, 越前功, "複数のフィルタ強度によるCNN画像分類器の応答特性を用いた敵対的事例の検出法," 信学技報, EMM 3月, 2021. **[2020年度 第6回EMM研究会 優秀学生発表賞]**
+
