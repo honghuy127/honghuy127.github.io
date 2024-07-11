@@ -20,13 +20,15 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
-1. F. B. Baldassini, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Cross-Attention Watermarking of Large Language Models," International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.
-1. F. Shalabi, H. Felouat, **H. H. Nguyen**, and I. Echizen, "Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection," International Conference on Advanced Information Networking and Applications (AINA), 2024.
-1. Z. Dou, Y. Guo, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Enhancing Robustness of LLM-Synthetic Text Detectors for Academic Writing: A Comprehensive Analysis," International Conference on Advanced Information Networking and Applications (AINA), 2024.
-1. E. Bao, C. C. Chang, **H. H. Nguyen**, and I. Echizen, "From Deconstruction to Reconstruction: A Plug-in Module for Diffusion-Based Purification of Adversarial Examples," International Workshops on Digital-forensics and Watermarking (IWDW), 2023.
-1. T. Ouyang, H.-Q. Nguyen-Son, **H. H. Nguyen\***, I. Echizen, Y. Seo, "Quality Assurance of A GPT-based Sentiment Analysis System: Adversarial Review Data Generation and Detection," Asia-Pacific Software Engineering Conference (APSEC), 2023.
+1. A. P. MaungMaung, **H. H. Nguyen**, H. Kiya, and I. Echizen. "Fine-Tuning Text-To-Image Diffusion Models for Class-Wise Spurious Feature Generation," International Conference on Image Processing (ICIP), 2024.
+1. L. Strack, F. Waseda, **H. H. Nguyen**, Y. Zheng, and I. Echizen. "Defending Against Physical Adversarial Patch Attacks on Infrared Human Detection," International Conference on Image Processing (ICIP), 2024.
+1. F. B. Baldassini, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Cross-Attention Watermarking of Large Language Models," International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024, 4625-4629.
+1. F. Shalabi, H. Felouat, **H. H. Nguyen**, and I. Echizen, "Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection," International Conference on Advanced Information Networking and Applications (AINA), 2024, 86-98.
+1. Z. Dou, Y. Guo, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Enhancing Robustness of LLM-Synthetic Text Detectors for Academic Writing: A Comprehensive Analysis," International Conference on Advanced Information Networking and Applications (AINA), 2024, 266-277.
+1. E. Bao, C. C. Chang, **H. H. Nguyen**, and I. Echizen, "From Deconstruction to Reconstruction: A Plug-in Module for Diffusion-Based Purification of Adversarial Examples," International Workshops on Digital-forensics and Watermarking (IWDW), 2023, 48-62.
+1. T. Ouyang, H.-Q. Nguyen-Son, **H. H. Nguyen\***, I. Echizen, Y. Seo, "Quality Assurance of A GPT-based Sentiment Analysis System: Adversarial Review Data Generation and Detection," Asia-Pacific Software Engineering Conference (APSEC), 2023, 450-457.
 1. F. Shalabi\*, **H. H. Nguyen\***, H. Felouat, C. C. Chang, and I. Echizen, "Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2023, 605-612.
-1. M. Niu, Z. Li, Y. Zhan, **H. H. Nguyen**, I. Echizen, and Y. Zheng, "Physics-Based Adversarial Attack on Near-Infrared Human Detector for Nighttime Surveillance Camera Systems," ACM Multimedia (MM) 2023.
+1. M. Niu, Z. Li, Y. Zhan, **H. H. Nguyen**, I. Echizen, and Y. Zheng, "Physics-Based Adversarial Attack on Near-Infrared Human Detector for Nighttime Surveillance Camera Systems," ACM Multimedia (MM) 2023, 8799-8807.
 1. **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "How Close are Other Computer Vision Tasks to Deepfake Detection?" International Joint Conference on Biometrics (IJCB) 2023, 229-238.
 1. **H. H. Nguyen**, T.-N. Le, J. Yamagishi, and I. Echizen, "Analysis of Master Vein Attacks on Finger Vein Recognition Systems," Winter Conference on Applications of Computer Vision (WACV) 2023, 1900-1908.
 1. F. Waseda, S. Nishikawa, T.-N. Le, **H. H. Nguyen**, and I. Echizen, "Closer Look at the Transferability of Adversarial Examples: How They Fool Different Models Differently," Winter Conference on Applications of Computer Vision (WACV) 2023, 1360-1368.
@@ -53,6 +55,8 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 1. H.-Q. Nguyen-Son, N.-D. Tieu, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Identifying computer-generated text using statistical analysis," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2017, 1504-1511.
 1. **H. H. Nguyen**, H. Nguyen-Son, and I. Echizen, "Discriminating between computer-generated facial images and natural ones using smoothness property and local entropy," International Workshop on Digital Watermarking (IWDW) 2015, 39-50.
 1. H. Nguyen, **H. H. Nguyen**, T. Hoang, D. Choi, and T. D. Nguyen, "A Generalized Authentication Scheme for Mobile Phones Using Gait Signals", International Conference on E-Business and Telecommunications 2015, 386-407.
+1. 東亮憲, 栗林稔, 舩曵信生, **Nguyen Hong Huy**, 越前功 "JPEG圧縮による画像分類器の識別結果の変動解析に基づく敵対的事例の検知法," コンピュータセキュリティシンポジウム (CSS2019), 2019. **[PWS2019学生論文賞受賞]**
+
 
 
 ## Book Chapters
