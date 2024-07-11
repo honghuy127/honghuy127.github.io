@@ -12,7 +12,7 @@ author_profile: true
 1. Y. Ji, T.-N. Le, **H. H. Nguyen**, and I. Echizen, "Purifying Adversarial Images Using Adversarial Autoencoder with Conditional Normalizing Flows,"
 IEEE Open Journal of Signal Processing (2023), 267-274.
 1. **H. H. Nguyen**, S. Marcel, J. Yamagishi, and I. Echizen, "Master Face Attacks on Face Recognition Systems," IEEE Transactions on Biometrics, Behavior, and Identity Science (2022), 398-411.
-1. **H. H. Nguyen**, M. Kuribayashi, J. Yamagishi, and I. Echizen, "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images," IEICE Transactions on Information and Systems (2022), 65-77. **[Best paper award]**
+1. **H. H. Nguyen**, M. Kuribayashi, J. Yamagishi, and I. Echizen, "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images," IEICE Transactions on Information and Systems (2022), 65-77. **[Excellent paper award]**
 1. T.-L. Do, M.-K. Tran, **H. H. Nguyen**, M.-T. Tran, "Potential Attacks of DeepFake on eKYC Systems and Remedy for eKYC with DeepFake Detection Using Two-Stream Network of Facial Appearance and Motion Features," SN Computer Science (2022), 3(6), 464 .
 1. N. Babaguchi, I. Echizen, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Preventing Fake Information Generation Against Media Clone Attacks," IEICE Transactions on Information and Systems (2021), 2-11. **[IEICE-ISS Excellent Paper Award]**
 1. I. Echizen, N. Babaguchi, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Generation and detection of Media Clones," IEICE Transactions on Information and Systems (2021), 12-23. **[IEICE-ISS Excellent Paper Award]**
@@ -63,7 +63,7 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 1. **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Capsule-Forensics Networks for Deepfake Detection," Handbook of Digital Face Manipulation and Detection – From DeepFakes to Morphing Attacks (2022), 275-301.
 1. R. Tolosana, C. Rathgeb, R. Vera-Rodriguez, C. Busch, L, Verdoliva, S. Lyu, **H. H. Nguyen**, J. Yamagishi, I. Echizen, P. Rot et al. "Future Trends in Digital Face Manipulation and Detection." Handbook of Digital Face Manipulation and Detection – From DeepFakes to Morphing Attacks (2022), 463-482.
 1. T.-N. Le, **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Robust Deepfake on Unrestricted Media: Generation and Detection," Frontiers in Fake Media Generation and Detection (2022), 81-107.
-1. 越前功, 馬場口登, 笹原和俊, Trung-Nghia Le, **Huy H. Nguyen**, 山岸順一, Canasai Kruengkrai, 中島悠太, 李良知, 王博文, 宮崎邦洋, 小林正啓, "インフォデミック時代のAIとサイバーセキュリティ", 映像情報メディア学会誌76(4) (2022), 10-15.
+1. 越前功, 馬場口登, 笹原和俊, Trung-Nghia Le, **Huy H. Nguyen**, 山岸順一, Canasai Kruengkrai, 中島悠太, 李良知, 王博文, 宮崎邦洋, 小林正啓, "インフォデミック時代のAIとサイバーセキュリティ", 映像情報メディア学会誌76(4) (2022), 10-15. **[Telecom Interdisciplinary Research Award]**
 
 ## Others
 1. 東亮憲, 栗林稔, 舩曵信生, Nguyen Hong Huy, 越前功, "複数のフィルタ強度によるCNN画像分類器の応答特性を用いた敵対的事例の検出法," 信学技報, EMM 3月, 2021. **[2020年度 第6回EMM研究会 優秀学生発表賞]**
