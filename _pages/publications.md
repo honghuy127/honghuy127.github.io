@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Journal Papers
+1. C. C. Chang, S. Xu, **H. H. Nguyen**, and I. Echizen, "Reversible Anonymization for Privacy of Facial Biometrics Via Cyclic Learning," EURASIP Journal on Information Security (2024), 1, 24.
 1. H. Felouat, **H. H. Nguyen**, T.-N. Le, J. Yamagishi, and I. Echizen, "eKYC-DF: A Large-Scale Deepfake Dataset for Developing and Evaluating eKYC Systems," IEEE Access (2024), 12, 30876-30892.
 1. K.-D. Nguyen, **H. H. Nguyen**, T.-N. Le, J. Yamagishi, and I. Echizen, "Analysis of Fine-Grained Counting Methods for Masked Face Counting: A Comparative Study," IEEE Access (2024), 12, 27426-27443.
 1. C. C. Chang, **H. H. Nguyen**, J. Yamagishi, and I. Echizen. "Cyber Vaccine for Deepfake Immunity," IEEE Access (2023), 105027-105039.
@@ -20,8 +21,12 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
-1. A. P. MaungMaung, **H. H. Nguyen**, H. Kiya, and I. Echizen. "Fine-Tuning Text-To-Image Diffusion Models for Class-Wise Spurious Feature Generation," International Conference on Image Processing (ICIP), 2024.
-1. L. Strack, F. Waseda, **H. H. Nguyen**, Y. Zheng, and I. Echizen. "Defending Against Physical Adversarial Patch Attacks on Infrared Human Detection," International Conference on Image Processing (ICIP), 2024.
+1. **H. H. Nguyen**, J. Yamagishi, and I. Echizen, "Exploring Self-Supervised Vision Transformers for Deepfake Detection: A Comparative Analysis," International Joint Conference on Biometrics (IJCB) 2024.
+1. Y. Sun, **H. H. Nguyen**, C.-S. Lu, Z. Zhang, L. Sun, and I. Echizen, "Generalized Deepfakes Detection with Reconstructed-Blended Images and Multi-scale Feature Reconstruction Network," International Joint Conference on Biometrics (IJCB) 2024.
+1. Y. Qiu, **H. H. Nguyen**, Q. Liao, C.-S. Lu, and I. Echizen, "Analysis of Backdoor Attacks on Deepfake Detection," International Joint Conference on Biometrics (IJCB) 2024.
+1. Y. Furuhashi, X. Wang, J. Yamagishi, **H. H. Nguyen**, and I. Echizen, "Exploring Active Data Selection Strategies for Continuous Training in Deepfake Detection," International Conference of the Biometrics Special Interest Group (BIOSIG) 2024.
+1. A. P. MaungMaung, **H. H. Nguyen**, H. Kiya, and I. Echizen, "Fine-Tuning Text-To-Image Diffusion Models for Class-Wise Spurious Feature Generation," International Conference on Image Processing (ICIP), 2024.
+1. L. Strack, F. Waseda, **H. H. Nguyen**, Y. Zheng, and I. Echizen, "Defending Against Physical Adversarial Patch Attacks on Infrared Human Detection," International Conference on Image Processing (ICIP), 2024.
 1. F. B. Baldassini, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Cross-Attention Watermarking of Large Language Models," International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024, 4625-4629.
 1. F. Shalabi, H. Felouat, **H. H. Nguyen**, and I. Echizen, "Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection," International Conference on Advanced Information Networking and Applications (AINA), 2024, 86-98.
 1. Z. Dou, Y. Guo, **H. H. Nguyen**, C. C. Chang, and I. Echizen, "Enhancing Robustness of LLM-Synthetic Text Detectors for Academic Writing: A Comprehensive Analysis," International Conference on Advanced Information Networking and Applications (AINA), 2024, 266-277.
