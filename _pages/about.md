@@ -17,7 +17,7 @@ I received my BS. degree (honors program) from [VNUHCM - University of Science](
 
 ## Selected News
 1. Three deepfake papers were accepted to IJCB 2024.
-1. Two papers ([spurious feature generation](https://arxiv.org/abs/2402.08200), [defense against physical adversarial attacks on infrared domain](https://arxiv.org/abs/2309.15519)) were accepted to ICIP 2024 
+1. Two papers ([spurious feature generation](https://arxiv.org/abs/2402.08200), [defense against physical adversarial attacks on infrared domain](https://arxiv.org/abs/2309.15519)) were accepted to ICIP 2024.
 1. Two papers ([**eKYC-Deepfake dataset**](https://ieeexplore.ieee.org/document/10444105) and [**a comparative study of fine-grained counting methods**](https://ieeexplore.ieee.org/document/10440103)) were published in IEEE Access.
 1. A paper about [**watermarking for LLMs**](https://gitlab.com/folbaeni/linguistic-watermark) was accepted to ICASSP 2024.
 1. Two NLP papers ([**detecting academic AI text**](https://arxiv.org/abs/2401.08046) and **multimodal out-of-context detection**) were accepted to AINA 2024.
