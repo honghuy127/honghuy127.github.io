@@ -16,6 +16,8 @@ My research interests include security and privacy in biometrics and machine lea
 I received my BS. degree (honors program) from [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and my Ph.D. degree from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/) in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022. For more details, please have a look at my CV [here](https://github.com/honghuy127/honghuy127.github.io/blob/master/files/CV.pdf) (last update: Aug. 2024).
 
 ## Selected News
+1. Three deepfake papers were accepted to IJCB 2024.
+1. Two papers ([spurious feature generation](https://arxiv.org/abs/2402.08200), [defense against physical adversarial attacks on infrared domain](https://arxiv.org/abs/2309.15519)) were accepted to ICIP 2024 
 1. Two papers ([**eKYC-Deepfake dataset**](https://ieeexplore.ieee.org/document/10444105) and [**a comparative study of fine-grained counting methods**](https://ieeexplore.ieee.org/document/10440103)) were published in IEEE Access.
 1. A paper about [**watermarking for LLMs**](https://gitlab.com/folbaeni/linguistic-watermark) was accepted to ICASSP 2024.
 1. Two NLP papers ([**detecting academic AI text**](https://arxiv.org/abs/2401.08046) and **multimodal out-of-context detection**) were accepted to AINA 2024.
