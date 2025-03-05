@@ -45,4 +45,4 @@ For more details, please have a look at **my CV [here](https://github.com/honghu
 ## Contact
 Please contact me at
 
-<img src="../images/email.png" alt="drawing" width="120"/>
+<img src="../images/email.png" alt="drawing" width="240"/>
