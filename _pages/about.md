@@ -10,8 +10,8 @@ redirect_from:
 
 I am **Huy H. Nguyen** (Nguyễn Hồng Huy in Vietnamese).
 
-I am currently a specially appointed assistant professor (特任助教) at [Echizen Laboratory](https://research.nii.ac.jp/~iechizen/official/index-e.html), [National Institute of Informatics](https://www.nii.ac.jp/en/), Tokyo, Japan. 
-My research interests include security and privacy in biometrics and machine learning, plus fake media generation and detection.
+I am currently a researcher at [**SB Intuitions**](https://www.sbintuitions.co.jp/) (a SoftBank Group company) and a visiting associate professor at the [**National Institute of Informatics (NII)**](https://www.nii.ac.jp/en/), Japan. Previously, I was a project assistant professor (特任助教) at [Echizen Laboratory](https://research.nii.ac.jp/~iechizen/official/index-e.html), NII. 
+My research interests include safety, security, and privacy for machine learning, plus fake media generation and detection.
 
 I received my BS. degree (honors program) from [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and my Ph.D. degree from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/) in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022.
 
