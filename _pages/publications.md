@@ -6,21 +6,28 @@ author_profile: true
 ---
 
 ## Journal Papers
+1. **H. H. Nguyen**, S. Liang, J. Yamagishi, and I. Echizen, "Navigating Real and Fake in the Era of Advanced Generative AI," APSIPA Transactions on Signal and Information Processing, (2025), 14(3).
+1. S. Liang, **H. H. Nguyen**, S. Ikehata, J. Yamagishi, I. Echizen, "3D Morphable Master Face: Towards Controllable Wolf Attacks against 2D and 3D Face Recognition Systems," APSIPA Transactions on Signal and Information Processing (2025), 14(3).
+1. S. Cui, **H. H. Nguyen**, T.-N. Le, C.-S. Lu and I. Echizen, "LookupForensics: A Large-Scale Multi-Task Dataset for Multi-Phase Image-Based Fact Verification," IEEE Access (2025), 13, 136505-136523.
+1. H. Felouat, **H. H. Nguyen**, J. Yamagishi and I. Echizen, "3DDGD: 3D Deepfake Generation and Detection Using 3D Face Meshes," IEEE Access (2025), 13, 107429-107441.
 1. C. C. Chang, S. Xu, **H. H. Nguyen**, and I. Echizen, "Reversible Anonymization for Privacy of Facial Biometrics Via Cyclic Learning," EURASIP Journal on Information Security (2024), 1, 24.
 1. H. Felouat, **H. H. Nguyen**, T.-N. Le, J. Yamagishi, and I. Echizen, "eKYC-DF: A Large-Scale Deepfake Dataset for Developing and Evaluating eKYC Systems," IEEE Access (2024), 12, 30876-30892.
 1. K.-D. Nguyen, **H. H. Nguyen**, T.-N. Le, J. Yamagishi, and I. Echizen, "Analysis of Fine-Grained Counting Methods for Masked Face Counting: A Comparative Study," IEEE Access (2024), 12, 27426-27443.
-1. C. C. Chang, **H. H. Nguyen**, J. Yamagishi, and I. Echizen. "Cyber Vaccine for Deepfake Immunity," IEEE Access (2023), 105027-105039.
+1. C. C. Chang, **H. H. Nguyen**, J. Yamagishi, and I. Echizen. "Cyber Vaccine for Deepfake Immunity," IEEE Access (2023), 11, 105027-105039.
 1. Y. Ji, T.-N. Le, **H. H. Nguyen**, and I. Echizen, "Purifying Adversarial Images Using Adversarial Autoencoder with Conditional Normalizing Flows,"
 IEEE Open Journal of Signal Processing (2023), 267-274.
 1. **H. H. Nguyen**, S. Marcel, J. Yamagishi, and I. Echizen, "Master Face Attacks on Face Recognition Systems," IEEE Transactions on Biometrics, Behavior, and Identity Science (2022), 398-411.
 1. **H. H. Nguyen**, M. Kuribayashi, J. Yamagishi, and I. Echizen, "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images," IEICE Transactions on Information and Systems (2022), 65-77. **[Excellent paper award]**
-1. T.-L. Do, M.-K. Tran, **H. H. Nguyen**, M.-T. Tran, "Potential Attacks of DeepFake on eKYC Systems and Remedy for eKYC with DeepFake Detection Using Two-Stream Network of Facial Appearance and Motion Features," SN Computer Science (2022), 3(6), 464 .
+1. T.-L. Do, M.-K. Tran, **H. H. Nguyen**, M.-T. Tran, "Potential Attacks of DeepFake on eKYC Systems and Remedy for eKYC with DeepFake Detection Using Two-Stream Network of Facial Appearance and Motion Features," SN Computer Science (2022), 3(6), 464.
 1. N. Babaguchi, I. Echizen, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Preventing Fake Information Generation Against Media Clone Attacks," IEICE Transactions on Information and Systems (2021), 2-11. **[IEICE-ISS Excellent Paper Award]**
 1. I. Echizen, N. Babaguchi, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, **H. H. Nguyen**, N. T. Tieu, "Generation and detection of Media Clones," IEICE Transactions on Information and Systems (2021), 12-23. **[IEICE-ISS Excellent Paper Award]**
 1. N.-D. Tieu, **H. H. Nguyen**, H.-Q. Nguyen-Son, J. Yamagishi, and I. Echizen, "Spatio-temporal generative adversarial network for gait anonymization," Journal of Information Security and Applications (2019), 307-319.
 
 
 ## Conference Papers
+1. S. Cui, P. Navas, H. Wang, C.-C. Chang, **H. H. Nguyen**, I. Echizen, "A Multilingual, Multimodal Dataset for Disinformation and Out-of-Context Analysis with Rich Supportive Information," International Conference on Multimodal Interaction (ICMI) 2025.
+1. Y. Guo, Z. Dou, **H. H. Nguyen**, C.-C. Chang, S. Sugawara, and I. Echizen, "Measuring Human Involvement in AI-Generated Text: A Case Study on Academic Writing," International Joint Conference on Neural Networks (IJCNN) 2025.
+1. W. Liu, S. Liang, **H. H. Nguyen**, and, I. Echizen, "A Controllable 3D Deepfake Generation Framework with Gaussian Splatting," International Joint Conference on Biometrics (IJCB) 2025.
 1. G. Delvecchio, **H. H. Nguyen**, and I. Echizen, "Zero-Shot Warning Generation for Misinformative Multimodal Content," Workshop on Artificial Intelligence for Multimedia Forensics and Disinformation Detection (AI4MFDD) at Winter Conference on Applications of Computer Vision (WACV-W) 2025.
 1. F. Hsieh, **H. H. Nguyen**, A. P. MaungMaung, D. Usynin, and I. Echizen, "Mitigating Backdoor Attacks using Activation-Guided Model Editing," Large Vision – Language Model Learning and Applications Workshop, Asian Conference on Computer Vision (ACCV-W) 2024, 302-318.
 1. R. Disabato, A. P. MaungMaung, **H. H. Nguyen**, I. Echizen, "Transfer-Based Adversarial Attack Against Multimodal Models by Exploiting Perturbed Attention Region," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2024, 1-6.
