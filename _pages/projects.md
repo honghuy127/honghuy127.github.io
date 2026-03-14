@@ -7,7 +7,7 @@ redirect_from:
   - /projects.html
 ---
 
-### AegisRuntime
+## AegisRuntime
 
 AegisRuntime is an experimental runtime for governance-aware AI agents.
 
