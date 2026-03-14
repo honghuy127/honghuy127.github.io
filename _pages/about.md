@@ -34,6 +34,11 @@ For more details, please have a look at **my CV [here](https://github.com/honghu
 1. Our paper on the [OpenForensics dataset](https://zenodo.org/record/5528418#.Ylay4JNBz0o) was published in [ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Le_OpenForensics_Large-Scale_Challenging_Dataset_for_Multi-Face_Forgery_Detection_and_Segmentation_ICCV_2021_paper.pdf) ([implementation](https://github.com/ltnghia/openforensics)).
 1. Our early work on deepfake detection and segmentation was published in [ICASSP 2019](https://ieeexplore.ieee.org/document/8682602) ([arXiv](https://arxiv.org/abs/1810.11215), [implementation](https://github.com/nii-yamagishilab/Capsule-Forensics)) and [BTAS 2019](https://ieeexplore.ieee.org/document/9185974) ([arXiv](https://arxiv.org/abs/1906.06876), [implementation](https://github.com/nii-yamagishilab/ClassNSeg)).
 
+## Selected Personal Repositories
+1. **AegisRuntime**: Governance-aware agent runtime  
+  https://github.com/honghuy127/aegis-runtime-public
+
+
 ## Academic Activities
 1. **Reviewer**:
   - **Conferences:** NeurIPS, ICLR, ICML, CVPR, ECCV, WACV, ICME, ACL RR, APSIPA ASC.
