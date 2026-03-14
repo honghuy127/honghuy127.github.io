@@ -36,7 +36,7 @@ For more details, please have a look at **my CV [here](https://github.com/honghu
 
 ## Selected Personal Repositories
 1. **AegisRuntime**: Governance-aware agent runtime  
-  https://github.com/honghuy127/aegis-runtime-public
+  [https://github.com/honghuy127/aegis-runtime-public](https://github.com/honghuy127/aegis-runtime-public)
 
 
 ## Academic Activities
