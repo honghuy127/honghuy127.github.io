@@ -21,15 +21,6 @@ Source code: [Self-Study with AI on GitHub](https://github.com/honghuy127/self-s
 
 ## AegisRuntime
 
-AegisRuntime is an experimental runtime for governance-aware AI agents.
-
-The project explores how to combine:
-
-- LLM / VLM reasoning
-- Deterministic rules and invariants
-- Bounded execution policies
-- Dynamic recovery graphs
-
-The goal is to build more robust agent systems that operate in dynamic environments.
+AegisRuntime is an experimental runtime for governance-aware AI agents, coupling LLM/VLM reasoning with deterministic rules, bounded execution policies, and dynamic recovery graphs.
 
 Source code: [AegisRuntime on GitHub](https://github.com/honghuy127/aegis-runtime-public)
