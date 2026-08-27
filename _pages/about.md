@@ -1,7 +1,7 @@
 ---
 permalink: /
 title:
-excerpt: "Research in AI safety, security, privacy, and multimedia forensics."
+excerpt: "AI safety, security, privacy, and multimedia forensics."
 author_profile: true
 body_class: home
 redirect_from: 
@@ -12,7 +12,7 @@ redirect_from:
 <section class="home-hero" aria-labelledby="home-title">
   <p class="home-hero__eyebrow">Tokyo, Japan</p>
   <h1 id="home-title">Huy H. Nguyen</h1>
-  <p class="home-hero__lead">Research in AI safety, security, privacy, and multimedia forensics.</p>
+  <p class="home-hero__lead">AI safety, security, privacy, and multimedia forensics.</p>
   <p class="home-hero__affiliations">Researcher at SB Intuitions · Visiting Associate Professor at the National Institute of Informatics</p>
   <div class="home-hero__actions">
     <a class="home-button home-button--primary" href="{{ '/files/CV.pdf' | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
