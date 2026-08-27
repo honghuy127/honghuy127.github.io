@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Huy"
+title                    : "Huy H. Nguyen"
 title_separator          : "-"
 name                     : &name "Huy H. Nguyen"
 description              : &description "Research in AI safety, security, privacy, and multimedia forensics."
@@ -49,7 +49,7 @@ social:
 author:
   name             : "Huy H. Nguyen"
   avatar           : "profile.jpg"
-  bio              : "Researcher at SB Intuitions, Tokyo, Japan."
+  bio              : "Researcher at SB Intuitions."
   location         : "Tokyo, Japan"
   employer         :
   pubmed           : 
@@ -103,9 +103,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log

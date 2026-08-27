@@ -3,6 +3,7 @@ permalink: /
 title:
 excerpt: "Research in AI safety, security, privacy, and multimedia forensics."
 author_profile: true
+body_class: home
 redirect_from: 
   - /about/
   - /about.html
