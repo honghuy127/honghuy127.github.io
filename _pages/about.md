@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <section class="home-hero" aria-labelledby="home-title">
-  <p class="home-hero__eyebrow">Researcher · Tokyo, Japan</p>
+  <p class="home-hero__eyebrow">Tokyo, Japan</p>
   <h1 id="home-title">Huy H. Nguyen</h1>
   <p class="home-hero__lead">Research in AI safety, security, privacy, and multimedia forensics.</p>
   <p class="home-hero__affiliations">Researcher at SB Intuitions · Visiting Associate Professor at the National Institute of Informatics</p>
