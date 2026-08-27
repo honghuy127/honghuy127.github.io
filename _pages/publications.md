@@ -25,6 +25,8 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
+1. C. Jia, A. P. MaungMaung, **H. H. Nguyen**, J. Chen, and I. Echizen, "Beyond Standard Benchmarks: A Systematic Audit of Vision-Language Model's Robustness to Natural Semantic Variation Across Diverse Tasks," International Conference on Pattern Recognition (ICPR) 2026, 96-110.
+1. **H. H. Nguyen**, P. Kavumba, T. Kurosawa, and K. Wataoka, "Foundation Models as Guardrails: LLM- and VLM-Based Approaches to Safety and Alignment," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2025, 2564-2569. **[Best Perspective Paper Award]**
 1. S. Cui, P. Navas, H. Wang, C.-C. Chang, **H. H. Nguyen**, I. Echizen, "A Multilingual, Multimodal Dataset for Disinformation and Out-of-Context Analysis with Rich Supportive Information," International Conference on Multimodal Interaction (ICMI) 2025.
 1. Y. Guo, Z. Dou, **H. H. Nguyen**, C.-C. Chang, S. Sugawara, and I. Echizen, "Measuring Human Involvement in AI-Generated Text: A Case Study on Academic Writing," International Joint Conference on Neural Networks (IJCNN) 2025.
 1. W. Liu, S. Liang, **H. H. Nguyen**, and, I. Echizen, "A Controllable 3D Deepfake Generation Framework with Gaussian Splatting," International Joint Conference on Biometrics (IJCB) 2025.

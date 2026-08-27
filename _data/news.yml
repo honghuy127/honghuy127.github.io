@@ -1,3 +1,7 @@
+- date: 2026-07-30
+  title: "Panelist at the APO GAIA Public Symposium on AI Readiness"
+  url: "https://www.apo-tokyo.org/aponews/apo-gaia-advances-international-cooperation/"
+  summary: "On safety, talent, and international cooperation, hosted with UNU and the University of Tokyo."
 - date: 2026-03-07
   title: "AI Safety: Bridging Academic Research and Industrial Application"
   url: "https://www.anlp.jp/proceedings/annual_meeting/2026/#tutorial"
@@ -5,12 +9,15 @@
 - date: 2025-11-01
   title: "Foundation Models as Guardrails"
   url: "https://www.apsipa2025.org/wp/session-2/"
-  summary: "Perspective and panel session at APSIPA ASC 2025 with Koki Wataoka."
+  summary: "Perspective and panel session at APSIPA ASC 2025 with Koki Wataoka. The accompanying paper received the Best Perspective Paper Award."
 - date: 2025-09-01
   title: "New publications in disinformation, AI-generated text, and 3D deepfakes"
   summary: "Research appeared at ICMI, IJCNN, IJCB, the WACV Workshop, and in leading journals."
 - date: 2024-12-01
   title: "Three papers on deepfake detection accepted to IJCB 2024"
+- date: 2024-09-01
+  title: "BTAS/IJCB 5-Year Highest Impact Award"
+  summary: "For the 2019 BTAS paper on multi-task deepfake detection and segmentation."
 - date: 2024-02-01
   title: "Two papers on generative and adversarial robustness accepted to ICIP 2024"
   summary: "On spurious feature generation and defense against physical adversarial attacks in the infrared domain."
