@@ -19,6 +19,7 @@
       <details class="mobile-nav">
         <summary><span class="mobile-nav__brand">Huy</span><span class="mobile-nav__label">Menu</span></summary>
         <ul>
+          <li><a href="{{ base_path }}/">About</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
