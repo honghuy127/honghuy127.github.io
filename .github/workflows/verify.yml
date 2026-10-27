@@ -8,16 +8,15 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  build-and-check-links:
-    runs-on: ubuntu-latest
+  check-source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-      - run: bundle exec jekyll build --strict_front_matter
-      - uses: lycheeverse/lychee-action@v2
-        with:
-          args: --offline --no-progress --root-dir _site '_site/**/*.html'
+      - name: Check YAML and front matter
+        run: ruby scripts/check_source.rb

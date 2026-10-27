@@ -25,6 +25,10 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
+1. M.-D. Vo, J. Li, **H. H. Nguyen**, P. Kavumba, and K. Wataoka, "SafeGrad: A Severity-Graded Benchmark for Safety Evaluation, Defense, and Attack of Text-to-Image Models," Winter Conference on Applications of Computer Vision (WACV) 2026.
+1. **H. H. Nguyen**, P. Kavumba, J. Li, M.-D. Vo, and K. Wataoka, "The Guardrail Trinity: Procedural Safety Schemas, Reasoning Chain Decomposition, and Dual-Mode Inference for LLM Guardrails," Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP) 2026, Main.
+1. C. Jia, A. P. MaungMaung, **H. H. Nguyen**, I. Echizen, and J. Chen, "GCoTD: A Non-Intrusive Diagnostic Pipeline for Black-Box LLM Backdoor Detection via Graph Chain-of-Thought," Findings of the Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP) 2026.
+1. J. Li, J. Zhang, M.-D. Vo, **H. H. Nguyen**, P. Kavumba, and K. Wataoka, "Do VLMs Share Safety Neurons Across Modalities?" Empirical Methods in Natural Language Processing (EMNLP) 2026, Main Track.
 1. C. Jia, A. P. MaungMaung, **H. H. Nguyen**, J. Chen, and I. Echizen, "Beyond Standard Benchmarks: A Systematic Audit of Vision-Language Model's Robustness to Natural Semantic Variation Across Diverse Tasks," International Conference on Pattern Recognition (ICPR) 2026, 96-110.
 1. **H. H. Nguyen**, P. Kavumba, T. Kurosawa, and K. Wataoka, "Foundation Models as Guardrails: LLM- and VLM-Based Approaches to Safety and Alignment," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2025, 2564-2569. **[Best Perspective Paper Award]**
 1. S. Cui, P. Navas, H. Wang, C.-C. Chang, **H. H. Nguyen**, I. Echizen, "A Multilingual, Multimodal Dataset for Disinformation and Out-of-Context Analysis with Rich Supportive Information," International Conference on Multimodal Interaction (ICMI) 2025.

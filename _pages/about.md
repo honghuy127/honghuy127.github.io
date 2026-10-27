@@ -34,7 +34,7 @@ I received a B.S. degree through the honors program at [VNUHCM - University of S
 
 {% assign news = site.data.news | sort: 'date' | reverse %}
 <ol class="news-timeline">
-{% for item in news limit: 4 %}
+{% for item in news limit: 6 %}
   <li>
     <time datetime="{{ item.date }}">{{ item.date | date: "%b %Y" }}</time>
     <div>

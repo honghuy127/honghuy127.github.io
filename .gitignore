@@ -1,4 +1,7 @@
 _site/
+.bundle/
+vendor/bundle/
+Gemfile.lock
 
 # macOS system files
 .DS_Store
