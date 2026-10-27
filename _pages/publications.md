@@ -25,7 +25,7 @@ IEEE Open Journal of Signal Processing (2023), 267-274.
 
 
 ## Conference Papers
-1. M.-D. Vo, J. Li, **H. H. Nguyen**, P. Kavumba, and K. Wataoka, "SafeGrad: A Severity-Graded Benchmark for Safety Evaluation, Defense, and Attack of Text-to-Image Models," Winter Conference on Applications of Computer Vision (WACV) 2026.
+1. M.-D. Vo, J. Li, **H. H. Nguyen**, P. Kavumba, and K. Wataoka, "SafeGrad: A Severity-Graded Benchmark for Safety Evaluation, Defense, and Attack of Text-to-Image Models," Winter Conference on Applications of Computer Vision (WACV) 2027.
 1. **H. H. Nguyen**, P. Kavumba, J. Li, M.-D. Vo, and K. Wataoka, "The Guardrail Trinity: Procedural Safety Schemas, Reasoning Chain Decomposition, and Dual-Mode Inference for LLM Guardrails," Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP) 2026, Main.
 1. C. Jia, A. P. MaungMaung, **H. H. Nguyen**, I. Echizen, and J. Chen, "GCoTD: A Non-Intrusive Diagnostic Pipeline for Black-Box LLM Backdoor Detection via Graph Chain-of-Thought," Findings of the Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP) 2026.
 1. J. Li, J. Zhang, M.-D. Vo, **H. H. Nguyen**, P. Kavumba, and K. Wataoka, "Do VLMs Share Safety Neurons Across Modalities?" Empirical Methods in Natural Language Processing (EMNLP) 2026, Main Track.
