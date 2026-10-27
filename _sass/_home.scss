@@ -73,6 +73,16 @@
   max-width: 46rem;
   margin-top: 2.5rem;
   font-size: 1.05rem;
+
+  // Links read as links through weight and color; the underline appears on hover.
+  a {
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .home-section {
