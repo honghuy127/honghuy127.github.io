@@ -33,8 +33,10 @@ I received a B.S. degree through the honors program at [VNUHCM - University of S
 <h2 id="news-title">Recent news</h2>
 
 {% assign news = site.data.news | sort: 'date' | reverse %}
-<ol class="news-timeline">
-{% for item in news limit: 6 %}
+<div class="news-browser" data-news-browser>
+<div class="news-browser__viewport" role="region" aria-label="Recent news entries" tabindex="0">
+<ol class="news-timeline" id="news-list">
+{% for item in news %}
   <li>
     <time datetime="{{ item.date }}">{{ item.date | date: "%b %Y" }}</time>
     <div>
@@ -44,6 +46,13 @@ I received a B.S. degree through the honors program at [VNUHCM - University of S
   </li>
 {% endfor %}
 </ol>
+</div>
+<nav class="news-pagination" aria-label="News pages" hidden>
+  <button type="button" data-news-previous aria-controls="news-list">← Newer</button>
+  <span data-news-status role="status" aria-live="polite" aria-atomic="true"></span>
+  <button type="button" data-news-next aria-controls="news-list">Older →</button>
+</nav>
+</div>
 
 <p class="home-section__more">Explore the full record in <a href="{{ '/publications/' | relative_url }}">publications</a> and <a href="{{ '/talks/' | relative_url }}">talks</a>.</p>
 
