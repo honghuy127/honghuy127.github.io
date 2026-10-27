@@ -1,0 +1,26 @@
+---
+permalink: /grants/
+title: "Grants"
+author_profile: true
+excerpt: "Research grants and funded projects Huy H. Nguyen has led or contributed to."
+redirect_from:
+  - /grants.html
+---
+
+<p class="page-header__lead">Funded research projects I have led or contributed to.</p>
+
+<ol class="entry-list">
+  {% for grant in site.data.grants %}
+  <li class="entry">
+    <p class="entry__when">{{ grant.years }}</p>
+    <div class="entry__body">
+      <div class="pub__badges">
+        <span class="badge{% unless grant.role_type == 'PI' %} badge--muted{% endunless %}">{{ grant.role }}</span>
+        <span class="badge badge--muted">{{ grant.program }}</span>
+      </div>
+      <h2 class="entry__title"><a href="{{ grant.url }}">{{ grant.title }}</a></h2>
+      <p class="entry__summary">{{ grant.summary }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ol>

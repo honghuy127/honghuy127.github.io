@@ -2,17 +2,17 @@
 # https://wacv.thecvf.com/Conferences/2027/Dates
 - date: 2026-10-14
   title: "SafeGrad accepted to WACV 2027"
-  url: "/publications/#conference-papers"
+  url: "/publications/#safegrad-2027"
   summary: "On severity-graded safety evaluation, defense, and attack of text-to-image models."
 # https://2026.aaclnet.org/calls/main_conference_papers/#important-dates
 - date: 2026-09-07
   title: "Two papers accepted to AACL-IJCNLP 2026"
-  url: "/publications/#conference-papers"
+  url: "/publications/?q=AACL-IJCNLP"
   summary: "On LLM guardrails (The Guardrail Trinity, Main) and black-box backdoor detection (GCoTD, Findings)."
 # https://2026.emnlp.org/calls/main_conference_papers/#important-dates
 - date: 2026-08-20
   title: "Paper on VLM safety neurons accepted to EMNLP 2026"
-  url: "/publications/#conference-papers"
+  url: "/publications/#vlms-share-safety-neurons-2026"
   summary: "On neuron-level safety mechanisms across text and image modalities. Main Track."
 - date: 2026-07-30
   title: "Panelist at the APO GAIA Public Symposium on AI Readiness"

@@ -1,18 +1,49 @@
-/* ==========================================================================
-   PRINT STYLES
-   ========================================================================== */
-
-/*
-   Hide the following elements on print
-   ========================================================================== */
+/* Print: plain black-on-white document without site chrome */
 
 @media print {
-  .masthead,
-  .toc,
-  .page__share,
-  .page__related,
-  .ads,
-  .page__footer {
-    display: none;
+  :root {
+    @include light-theme;
+    --bg: #fff;
+    --text: #000;
+    --heading: #000;
+    --muted: #333;
+    --link: #000;
+    --shadow: none;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  .site-header,
+  .site-footer,
+  .profile,
+  .skip-link,
+  .no-print {
+    display: none !important;
+  }
+
+  .layout,
+  .layout--with-profile {
+    display: block;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .card {
+    box-shadow: none;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  li,
+  .card {
+    break-inside: avoid;
   }
 }

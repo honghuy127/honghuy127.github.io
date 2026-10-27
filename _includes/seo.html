@@ -48,9 +48,8 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
-  <meta property="og:description" content="{{ seo_description }}">
-{% endif %}
+<meta name="description" content="{{ seo_description }}">
+<meta property="og:description" content="{{ seo_description }}">
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
@@ -103,25 +102,21 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
-    }
-  </script>
-{% endif %}
-
 {% if site.social %}
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@context": "https://schema.org",
+      "@type": "{{ site.social.type | default: 'Person' }}",
+      "name": {{ site.social.name | default: site.name | jsonify }},
+      "url": {{ seo_url | jsonify }},
+      "image": {{ site.author.avatar | prepend: "/images/" | prepend: base_path | jsonify }},
+      "jobTitle": {{ site.author.positions | jsonify }},
+      "affiliation": [
+        { "@type": "Organization", "name": "SB Intuitions" },
+        { "@type": "Organization", "name": "National Institute of Informatics" }
+      ],
+      "knowsAbout": {{ site.data.research_topics | map: "label" | jsonify }},
+      "sameAs": {{ site.social.links | jsonify }}
     }
   </script>
 {% endif %}

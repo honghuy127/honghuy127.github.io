@@ -1,0 +1,275 @@
+/* Homepage */
+
+.hero {
+  display: grid;
+  gap: 1.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: minmax(0, 1fr) 11rem;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: minmax(0, 1fr) 15rem;
+    padding: 1rem 0 3.5rem;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(2.3rem, 6vw, 3.6rem);
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+}
+
+.hero__photo {
+  order: -1;
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+
+  @media (min-width: $breakpoint-sm) {
+    order: 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+}
+
+.hero__lead {
+  max-width: 38rem;
+  margin: 1.25rem 0 0;
+  color: var(--heading);
+  font-size: clamp(1.2rem, 2.4vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.hero__affiliations {
+  max-width: 42rem;
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.hero .link-list {
+  margin-top: 1rem;
+}
+
+.home-introduction {
+  max-width: 46rem;
+  margin-top: 2.5rem;
+  font-size: 1.05rem;
+}
+
+.home-section {
+  margin-top: 3.5rem;
+
+  > h2 {
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    margin-top: 4.5rem;
+  }
+}
+
+.home-section__more {
+  margin: 1.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+/* News */
+
+.news-timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    gap: 0.3rem;
+    margin: 0;
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--border);
+
+    @media (min-width: $breakpoint-sm) {
+      grid-template-columns: 6.5rem minmax(0, 1fr);
+      gap: 1.25rem;
+      padding: 1.35rem 0;
+    }
+  }
+
+  time {
+    padding-top: 0.15rem;
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 750;
+    letter-spacing: 0.03em;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.04rem;
+    line-height: 1.4;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--accent);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin: 0.3rem 0 0;
+    color: var(--muted);
+    font-size: 0.93rem;
+    line-height: 1.55;
+  }
+}
+
+.news-timeline {
+  max-width: 52rem;
+}
+
+.news-toggle {
+  margin-top: 1rem;
+
+  .icon {
+    transition: transform 0.2s ease;
+  }
+
+  &[aria-expanded="true"] .icon {
+    transform: rotate(180deg);
+  }
+}
+
+/* Research themes */
+
+.theme-card {
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    color: var(--text);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  h3 {
+    font-size: 1.05rem;
+  }
+
+  p {
+    flex: 1;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+}
+
+.theme-card__count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Selected publications */
+
+.pub-list--compact {
+  max-width: 52rem;
+
+  .pub:first-child {
+    padding-top: 0;
+  }
+}
+
+/* Academic activities */
+
+.activity-card {
+  p,
+  li {
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  li + li {
+    margin-top: 0.6rem;
+  }
+}
+
+/* Contact */
+
+.contact-card {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 3.5rem;
+  padding: 1.5rem;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4.5rem;
+    padding: 2rem;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  p {
+    max-width: 34rem;
+    margin: 0.6rem 0 0;
+    color: var(--muted);
+  }
+}
+
+.contact-card__email {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.theme-grid {
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

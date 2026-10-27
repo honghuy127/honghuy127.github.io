@@ -1,0 +1,44 @@
+# Talks, tutorials, and panels, newest first.
+# when: shown as written; role: Panel | Tutorial | Perspective & panel | Talk
+- when: "Jul 2026"
+  year: 2026
+  role: "Panel"
+  title: "Building AI Readiness: Safety, Talent, and International Cooperation"
+  event: "APO GAIA Public Symposium, University of Tokyo"
+  speakers: "Huy H. Nguyen (panelist)"
+  links:
+    article: "https://www.apo-tokyo.org/aponews/apo-gaia-advances-international-cooperation/"
+
+- when: "Mar 2026"
+  year: 2026
+  role: "Tutorial"
+  title: "AI Safety: Bridging Academic Research and Industrial Application"
+  event: "言語処理学会第32回年次大会 (NLP 2026)"
+  speakers: "Koki Wataoka, Huy H. Nguyen, and Pride Kavumba"
+  links:
+    details: "https://www.anlp.jp/proceedings/annual_meeting/2026/#tutorial"
+
+- when: "Nov 2025"
+  year: 2025
+  role: "Perspective & panel"
+  title: "Foundation Models as Guardrails: LLM- and VLM-Based Approaches to Safety and Alignment"
+  event: "APSIPA ASC 2025 Perspective & Panel Session"
+  speakers: "Koki Wataoka and Huy H. Nguyen"
+  links:
+    details: "https://www.apsipa2025.org/wp/session-2/"
+
+- when: "2024"
+  year: 2024
+  role: "Talk"
+  title: "Balancing Innovation and Security: Addressing Deepfakes and Disinformation in the Age of Advanced AI"
+  event: "N-CRiPT Workshop, National University of Singapore"
+  speakers: "Huy H. Nguyen"
+
+- when: "2021"
+  year: 2021
+  role: "Talk"
+  title: "Deepfake Generation and Detection – An Overview"
+  event: "Symposium on Sensing via Image Information (SSII), Japan"
+  speakers: "Huy H. Nguyen"
+  links:
+    details: "https://www.ssii.jp/ssii/files/2021/ssii2021_poster.pdf"

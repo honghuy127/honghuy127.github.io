@@ -1,314 +1,200 @@
-/* ==========================================================================
-   BASE ELEMENTS
-   ========================================================================== */
+/* Reset and typography */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
-  /* sticky footer fix */
-  position: relative;
-  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-height) + 1rem);
+  background: var(--bg);
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
-  color: $text-color;
-  font-family: $global-font-family;
-  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
 
-  &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
-    overflow: hidden;
+  @media (min-width: $breakpoint-sm) {
+    font-size: 1.0625rem;
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
-  font-family: $header-font-family;
-  font-weight: bold;
+main {
+  flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 2rem 0 0.75rem;
+  color: var(--heading);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: $type-size-3;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  letter-spacing: -0.035em;
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: clamp(1.4rem, 2.6vw, 1.75rem);
+  letter-spacing: -0.025em;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: 1.15rem;
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: 1rem;
 }
 
-h5 {
-  font-size: $type-size-6;
+p,
+ul,
+ol {
+  margin: 0 0 1rem;
 }
 
-h6 {
-  font-size: $type-size-6;
+ul,
+ol {
+  padding-left: 1.4rem;
 }
 
-small, .small {
-  font-size: $type-size-6;
+li + li {
+  margin-top: 0.35rem;
 }
 
-p {
-  margin-bottom: 1.3em;
-}
+a {
+  color: var(--link);
+  text-decoration-color: rgba(127, 140, 150, 0.45);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 
-u,
-ins {
-  text-decoration: none;
-  border-bottom: 1px solid $text-color;
-  a {
-    color: inherit;
+  &:hover {
+    color: var(--link-hover);
+    text-decoration-color: currentColor;
   }
 }
 
-del a {
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+strong,
+b {
+  color: var(--heading);
+  font-weight: 650;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+picture {
+  display: contents;
+}
+
+hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+code,
+kbd,
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+button,
+input,
+select {
+  font: inherit;
   color: inherit;
 }
 
-/* reduce orphans and widows when printing */
-
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
-  orphans: 3;
-  widows: 3;
+button {
+  cursor: pointer;
 }
 
-/* abbreviations */
-
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: none;
-  cursor: help;
-  border-bottom: 1px dotted $text-color;
+[hidden] {
+  display: none !important;
 }
 
-/* blockquotes */
-
-blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
-
-  cite {
-    font-style: italic;
-
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
+.icon {
+  display: inline-block;
+  flex: none;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
 }
 
-/* links */
-
-a {
-  &:focus {
-    @extend %tab-focus;
-  }
-
-  &:hover,
-  &:active {
-    outline: 0;
-  }
-}
-
-/* code */
-
-tt, code, kbd, samp, pre {
-  font-family: $monospace;
-}
-
-pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
-}
-
-p > code,
-a > code,
-li > code,
-figcaption > code,
-td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: $type-size-6;
-  background: $code-background-color;
-  border: 1px solid $lighter-gray;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-
-  &:before, &:after {
-    letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
-  }
-}
-
-/* horizontal rule */
-
-hr {
-  display: block;
-  margin: 1em 0;
-  border: 0;
-  border-top: 1px solid $border-color;
-}
-
-/* lists */
-
-ul li,
-ol li {
-  margin-bottom: 0.5em;
-}
-
-li ul,
-li ol {
-  margin-top: 0.5em;
-}
-
-/*
-   Media and embeds
-   ========================================================================== */
-
-/* Figures and images */
-
-figure {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-          align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 2em 0;
-
-  img,
-  iframe,
-  .fluid-width-video-wrapper {
-    margin-bottom: 1em;
-  }
-
-  img {
-    width: 100%;
-    border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-  }
-
-  > a {
-    display: block;
-  }
-
-  &.half {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-
-  &.third {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-}
-
-/* Figure captions */
-
-figcaption {
-  margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
-  font-family: $caption-font-family;
-  font-size: $type-size-6;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid $light-gray;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-
-    &:hover {
-      color: #000;
-      border-bottom-color: #000;
-    }
-  }
-}
-
-
-/* Fix IE9 SVG bug */
-
-svg:not(:root) {
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
   overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
+.skip-link {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 100;
+  padding: 0.6rem 0.9rem;
+  color: var(--button-text);
+  background: var(--button-bg);
+  border-radius: var(--radius-sm);
+  font-weight: 650;
+  text-decoration: none;
+  transform: translateY(-200%);
 
-/*
-   Navigation lists
-   ========================================================================== */
-
-/**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
-
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  /* override white-space for nested lists */
-  ul li,
-  ol li {
-    margin-bottom: 0;
-  }
-
-  li ul,
-  li ol {
-    margin-top: 0;
+  &:focus {
+    transform: none;
   }
 }
 
-/*
-   Global animation transition
-   ========================================================================== */
-
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
-  -webkit-transition: $global-transition;
-  transition: $global-transition;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }

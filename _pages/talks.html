@@ -1,0 +1,27 @@
+---
+title: "Talks"
+permalink: /talks/
+author_profile: true
+excerpt: "Talks, tutorials, and panels by Huy H. Nguyen."
+---
+
+<p class="page-header__lead">Tutorials, panels, and invited talks on AI safety, deepfakes, and disinformation.</p>
+
+<ol class="entry-list">
+  {% for talk in site.data.talks %}
+  <li class="entry">
+    <p class="entry__when">{{ talk.when }}</p>
+    <div class="entry__body">
+      <span class="badge{% if talk.role == 'Talk' %} badge--muted{% endif %}">{{ talk.role }}</span>
+      <h2 class="entry__title">{{ talk.title }}</h2>
+      <p class="entry__meta">{{ talk.event }}</p>
+      <p class="entry__people">{{ talk.speakers | replace: "Huy H. Nguyen", "<strong>Huy H. Nguyen</strong>" }}</p>
+      {% if talk.links %}
+      <div class="pub__actions">
+        {% for link in talk.links %}<a class="button button--small" href="{{ link[1] }}">{% include icon.html name="link" %}{{ link[0] | capitalize }}</a>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

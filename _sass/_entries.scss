@@ -1,0 +1,113 @@
+/* Talks and grants timelines, project cards */
+
+.entry-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entry {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--border);
+
+  &:first-child {
+    padding-top: 0.5rem;
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.entry__when {
+  margin: 0;
+  padding-top: 0.15rem;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+}
+
+.entry__body {
+  min-width: 0;
+
+  > .badge {
+    margin-bottom: 0.45rem;
+  }
+}
+
+.entry__title {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+
+  a {
+    color: inherit;
+    text-decoration-color: var(--border-strong);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.entry__meta,
+.entry__people,
+.entry__summary {
+  margin: 0.3rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.entry__meta {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.entry__people,
+.entry__summary {
+  color: var(--muted);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+  }
+
+  p {
+    flex: 1;
+    color: var(--muted);
+    font-size: 0.93rem;
+  }
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+  }
+}
+
+.sitemap-list {
+  padding-left: 1.2rem;
+
+  li {
+    font-size: 1.05rem;
+  }
+}

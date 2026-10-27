@@ -24,3 +24,9 @@ fi
 
 bundle exec jekyll build --strict_front_matter
 lychee --offline --no-progress --root-dir "$PWD/_site" "$PWD/_site/**/*.html"
+
+if python3 -c "import playwright" >/dev/null 2>&1; then
+  python3 scripts/check_layout.py
+else
+  echo "Skipping layout check: install Playwright to enable it (see README.md)."
+fi

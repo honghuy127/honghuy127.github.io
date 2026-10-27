@@ -1,0 +1,56 @@
+---
+title: "Publications"
+permalink: /publications/
+author_profile: true
+excerpt: "Journal articles, conference papers, workshop papers, and book chapters by Huy H. Nguyen."
+---
+
+{% assign pubs = site.data.publications %}
+{% assign years = pubs | group_by: "year" | sort: "name" | reverse %}
+
+<p class="page-header__lead">{{ pubs.size }} papers on AI safety, deepfakes and media forensics, adversarial machine learning, misinformation, and privacy. Citation counts are on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+
+<div class="pub-tools" data-pub-tools hidden>
+  <label class="pub-search">
+    {% include icon.html name="search" %}
+    <span class="visually-hidden">Search publications</span>
+    <input type="search" placeholder="Search titles, authors, venues" autocomplete="off" data-pub-search>
+  </label>
+  <div class="chip-row" role="group" aria-label="Filter by type">
+    <button class="chip" type="button" data-filter="type" data-value="all" aria-pressed="true">All</button>
+    <button class="chip" type="button" data-filter="type" data-value="selected" aria-pressed="false">Selected</button>
+    <button class="chip" type="button" data-filter="type" data-value="journal" aria-pressed="false">Journals</button>
+    <button class="chip" type="button" data-filter="type" data-value="conference" aria-pressed="false">Conferences</button>
+    <button class="chip" type="button" data-filter="type" data-value="workshop" aria-pressed="false">Workshops</button>
+    <button class="chip" type="button" data-filter="type" data-value="chapter" aria-pressed="false">Book chapters</button>
+  </div>
+  <div class="chip-row" role="group" aria-label="Filter by topic">
+    <button class="chip" type="button" data-filter="topic" data-value="all" aria-pressed="true">All topics</button>
+    {% for topic in site.data.research_topics %}
+    <button class="chip" type="button" data-filter="topic" data-value="{{ topic.id }}" aria-pressed="false">{{ topic.label }}</button>
+    {% endfor %}
+  </div>
+  <p class="pub-count" role="status" aria-live="polite" data-pub-count></p>
+</div>
+
+<nav class="year-nav" aria-label="Jump to year">
+  <ul>
+    {% for year in years %}<li><a href="#y{{ year.name }}">{{ year.name }}</a></li>{% endfor %}
+  </ul>
+</nav>
+
+{% for year in years %}
+<section class="pub-year" id="y{{ year.name }}" aria-labelledby="y{{ year.name }}-title">
+  <h2 id="y{{ year.name }}-title">{{ year.name }}</h2>
+  <ol class="pub-list">
+    {% for pub in year.items %}{% include publication.html pub=pub %}{% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+<div class="pub-empty" data-pub-empty hidden>
+  <p>No publications match these filters.</p>
+  <button class="button button--small" type="button" data-pub-reset>Clear filters</button>
+</div>
+
+<p class="pub-note">* Equal contribution or corresponding author, as marked in the paper.</p>

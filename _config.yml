@@ -50,11 +50,16 @@ author:
   name             : "Huy H. Nguyen"
   avatar           : "profile.jpg"
   bio              : "AI safety, security, privacy, and multimedia forensics."
+  positions        :
+    - "Researcher, SB Intuitions"
+    - "Visiting Associate Professor, NII"
   location         : "Tokyo, Japan"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=8q1km_cAAAAJ&hl=en"
   email            :
+  email_user       : "huyhnguyen.work" # assembled into a mailto link by assets/js/main.js
+  email_domain     : "gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Huy-Nguyen-187"
   uri              :
   bitbucket        :

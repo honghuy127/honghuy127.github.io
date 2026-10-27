@@ -1,0 +1,16 @@
+---
+title: "Page not found"
+excerpt: "The page you were looking for does not exist."
+sitemap: false
+permalink: /404.html
+author_profile: false
+---
+
+<p class="page-header__lead">The page you were looking for has moved or no longer exists. These pages may help:</p>
+
+<div class="hero__actions">
+  <a class="button button--primary" href="{{ '/' | relative_url }}">Home</a>
+  {% for link in site.data.navigation.main %}
+  <a class="button" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+  {% endfor %}
+</div>

@@ -1,0 +1,14 @@
+{% comment %}Author links; pass icons_only=true for the compact icon row.{% endcomment %}
+{% assign author = site.author %}
+<ul class="link-list{% if include.icons_only %} link-list--icons{% endif %}">
+  {% unless include.icons_only %}
+    {% if author.location %}<li class="link-list__location"><span class="link-list__text">{% include icon.html name="location" %}{{ author.location }}</span></li>{% endif %}
+  {% endunless %}
+  {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}"{% if include.icons_only %} aria-label="Google Scholar" title="Google Scholar"{% endif %}>{% include icon.html name="scholar" %}{% unless include.icons_only %}Google Scholar{% endunless %}</a></li>{% endif %}
+  {% if author.orcid %}<li><a href="{{ author.orcid }}"{% if include.icons_only %} aria-label="ORCID" title="ORCID"{% endif %}>{% include icon.html name="orcid" %}{% unless include.icons_only %}ORCID{% endunless %}</a></li>{% endif %}
+  {% if author.github %}<li><a href="https://github.com/{{ author.github }}"{% if include.icons_only %} aria-label="GitHub" title="GitHub"{% endif %}>{% include icon.html name="github" %}{% unless include.icons_only %}GitHub{% endunless %}</a></li>{% endif %}
+  {% if author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"{% if include.icons_only %} aria-label="LinkedIn" title="LinkedIn"{% endif %}>{% include icon.html name="linkedin" %}{% unless include.icons_only %}LinkedIn{% endunless %}</a></li>{% endif %}
+  {% if author.researchgate %}<li><a href="{{ author.researchgate }}"{% if include.icons_only %} aria-label="ResearchGate" title="ResearchGate"{% endif %}>{% include icon.html name="researchgate" %}{% unless include.icons_only %}ResearchGate{% endunless %}</a></li>{% endif %}
+  {% if author.twitter %}<li><a href="https://x.com/{{ author.twitter }}"{% if include.icons_only %} aria-label="X (formerly Twitter)" title="X (formerly Twitter)"{% endif %}>{% include icon.html name="x" %}{% unless include.icons_only %}X (Twitter){% endunless %}</a></li>{% endif %}
+  {% if author.email_user %}<li><a href="{{ '/#contact' | relative_url }}" data-email-user="{{ author.email_user }}" data-email-domain="{{ author.email_domain }}"{% if include.icons_only %} aria-label="Email" title="Email"{% endif %}>{% include icon.html name="mail" %}{% unless include.icons_only %}Email{% endunless %}</a></li>{% endif %}
+</ul>

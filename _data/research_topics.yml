@@ -1,0 +1,20 @@
+# Research themes; publications reference these ids in their topics list.
+- id: ai-safety
+  label: "AI safety & guardrails"
+  summary: "Guardrails, safety evaluation, and safety mechanisms for LLMs, VLMs, and text-to-image models."
+
+- id: deepfakes
+  label: "Deepfakes & media forensics"
+  summary: "Detecting, localizing, and attributing manipulated and synthetic faces, images, and videos."
+
+- id: adversarial
+  label: "Adversarial ML & robustness"
+  summary: "Attacks and defenses for recognition and generative models, from master faces to backdoors."
+
+- id: misinformation
+  label: "Misinformation & AI-generated content"
+  summary: "Out-of-context detection, fact verification, and identifying or watermarking machine-generated text."
+
+- id: privacy
+  label: "Privacy & anonymization"
+  summary: "Protecting identity in faces, gait, and location data with learned anonymization."

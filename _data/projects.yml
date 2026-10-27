@@ -1,0 +1,15 @@
+# Personal open-source projects.
+- name: "CS & AI Research Skills"
+  summary: "A reusable agent skill for rigorous computer science and AI research, with evidence-driven playbooks, quality gates, and project-dossier tooling."
+  tags: ["Agent skills", "Research workflow"]
+  repo: "https://github.com/honghuy127/cs-ai-research-skills"
+
+- name: "Self-Study with AI"
+  summary: "A repository for self-study with AI."
+  tags: ["Learning"]
+  repo: "https://github.com/honghuy127/self-study-with-ai"
+
+- name: "AegisRuntime"
+  summary: "An experimental runtime for governance-aware AI agents, coupling LLM/VLM reasoning with deterministic rules, bounded execution policies, and dynamic recovery graphs."
+  tags: ["AI agents", "Governance", "Runtime"]
+  repo: "https://github.com/honghuy127/aegis-runtime-public"

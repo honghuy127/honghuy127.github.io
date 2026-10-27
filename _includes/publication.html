@@ -1,0 +1,47 @@
+{% assign pub = include.pub %}
+{% assign primary = pub.links.paper | default: pub.links.pdf | default: pub.links.doi | default: pub.links.arxiv | default: pub.links.book %}
+{% case pub.type %}
+  {% when "journal" %}{% assign type_label = "Journal" %}{% assign bib_type = "article" %}{% assign bib_venue = "journal" %}
+  {% when "chapter" %}{% assign type_label = "Book chapter" %}{% assign bib_type = "incollection" %}{% assign bib_venue = "booktitle" %}
+  {% when "workshop" %}{% assign type_label = "Workshop" %}{% assign bib_type = "inproceedings" %}{% assign bib_venue = "booktitle" %}
+  {% when "other" %}{% assign type_label = "Other" %}{% assign bib_type = "misc" %}{% assign bib_venue = "howpublished" %}
+  {% else %}{% assign type_label = "Conference" %}{% assign bib_type = "inproceedings" %}{% assign bib_venue = "booktitle" %}
+{% endcase %}
+{% assign authors_html = pub.authors | escape | replace: "H. H. Nguyen", "<strong>H. H. Nguyen</strong>" | replace: "Huy H. Nguyen", "<strong>Huy H. Nguyen</strong>" | replace: "Nguyen Hong Huy", "<strong>Nguyen Hong Huy</strong>" %}
+{% capture lb %}{% raw %}{{% endraw %}{% endcapture %}{% capture rb %}{% raw %}}{% endraw %}{% endcapture %}
+{% assign bib_authors = pub.authors | remove: "*" | replace: " et al.", ", others" | replace: ", and ", ", " | replace: " and ", ", " | replace: ", ", " and " %}
+<li class="pub"{% unless include.compact %} id="{{ pub.id }}"{% endunless %} data-type="{{ pub.type }}" data-topics="{{ pub.topics | join: ' ' }}"{% if pub.selected %} data-selected{% endif %}>
+  <div class="pub__badges">
+    <span class="badge">{{ pub.venue_short }}{% unless pub.venue_short contains "chapter" %} {{ pub.year }}{% endunless %}</span>
+    {% if pub.type != "conference" %}<span class="badge badge--muted">{{ type_label }}</span>{% endif %}
+    {% if pub.award %}<span class="badge badge--award">{% include icon.html name="award" %}{{ pub.award }}</span>{% endif %}
+  </div>
+  <h3 class="pub__title">{% if primary %}<a href="{{ primary }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+  <p class="pub__authors">{{ authors_html }}</p>
+  <p class="pub__venue">{{ pub.venue }}{% unless pub.type == "journal" or pub.type == "chapter" %} {{ pub.year }}{% endunless %}{% if pub.details %}, {{ pub.details }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages | replace: "-", "–" }}{% endif %}{% if pub.type == "journal" or pub.type == "chapter" %} ({{ pub.year }}){% endif %}</p>
+  {% unless include.compact %}
+  <div class="pub__actions">
+    {% if pub.links.paper %}<a class="button button--small" href="{{ pub.links.paper }}">{% include icon.html name="link" %}Paper</a>{% endif %}
+    {% if pub.links.pdf %}<a class="button button--small" href="{{ pub.links.pdf }}">{% include icon.html name="pdf" %}PDF</a>{% endif %}
+    {% if pub.links.arxiv %}<a class="button button--small" href="{{ pub.links.arxiv }}">{% include icon.html name="arxiv" %}arXiv</a>{% endif %}
+    {% if pub.links.doi %}<a class="button button--small" href="{{ pub.links.doi }}">{% include icon.html name="doi" %}DOI</a>{% endif %}
+    {% if pub.links.book %}<a class="button button--small" href="{{ pub.links.book }}">{% include icon.html name="link" %}Book</a>{% endif %}
+    {% if pub.links.code %}<a class="button button--small" href="{{ pub.links.code }}">{% include icon.html name="code" %}Code</a>{% endif %}
+    {% if pub.links.dataset %}<a class="button button--small" href="{{ pub.links.dataset }}">{% include icon.html name="link" %}Dataset</a>{% endif %}
+    {% if pub.links.project %}<a class="button button--small" href="{{ pub.links.project }}">{% include icon.html name="link" %}Project</a>{% endif %}
+    {% if pub.links.slides %}<a class="button button--small" href="{{ pub.links.slides }}">{% include icon.html name="pdf" %}Slides</a>{% endif %}
+    {% if pub.links.video %}<a class="button button--small" href="{{ pub.links.video }}">{% include icon.html name="video" %}Video</a>{% endif %}
+    <button class="button button--small" type="button" data-cite aria-expanded="false" aria-controls="cite-{{ pub.id }}" hidden>{% include icon.html name="cite" %}Cite</button>
+  </div>
+  <div class="pub__bibtex" id="cite-{{ pub.id }}" hidden>
+<pre><code>@{{ bib_type }}{{ lb }}{{ pub.id | replace: "-", "_" }},
+  title = {{ lb }}{{ lb }}{{ pub.title }}{{ rb }}{{ rb }},
+  author = {{ lb }}{{ bib_authors }}{{ rb }},
+  {{ bib_venue }} = {{ lb }}{{ pub.venue }}{{ rb }},{% if pub.pages %}
+  pages = {{ lb }}{{ pub.pages | replace: "-", "--" }}{{ rb }},{% endif %}
+  year = {{ lb }}{{ pub.year }}{{ rb }}
+}</code></pre>
+    <button class="button button--small" type="button" data-copy>{% include icon.html name="copy" %}<span>Copy BibTeX</span></button>
+  </div>
+  {% endunless %}
+</li>

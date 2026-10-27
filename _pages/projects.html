@@ -1,0 +1,24 @@
+---
+permalink: /projects/
+title: "Projects"
+author_profile: true
+excerpt: "Open-source projects by Huy H. Nguyen."
+redirect_from:
+  - /md/
+  - /projects.html
+---
+
+<p class="page-header__lead">Open-source tools for AI research and AI agents.</p>
+
+<div class="card-grid project-grid">
+  {% for project in site.data.projects %}
+  <article class="card project-card">
+    <h2>{{ project.name }}</h2>
+    <p>{{ project.summary }}</p>
+    <ul class="tag-list" aria-label="Topics">
+      {% for tag in project.tags %}<li class="badge badge--muted">{{ tag }}</li>{% endfor %}
+    </ul>
+    <a class="button button--small" href="{{ project.repo }}">{% include icon.html name="github" %}View on GitHub</a>
+  </article>
+  {% endfor %}
+</div>

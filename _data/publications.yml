@@ -1,0 +1,791 @@
+# Publications, newest first within each year.
+# Fields: id (anchor, keep stable), type (journal | conference | workshop | chapter | other),
+# title, authors, venue, venue_short, year, details, pages, award, selected (shown on the homepage),
+# topics (ids from _data/research_topics.yml), links (paper, pdf, arxiv, doi, code, dataset, project, slides, video, book).
+# Mark equal contribution with * after the author name.
+
+- id: navigating-real-fake-era-2025
+  type: journal
+  title: "Navigating Real and Fake in the Era of Advanced Generative AI"
+  authors: "H. H. Nguyen, S. Liang, J. Yamagishi, and I. Echizen"
+  venue: "APSIPA Transactions on Signal and Information Processing"
+  venue_short: "APSIPA Trans. SIP"
+  year: 2025
+  details: "vol. 14, no. 3"
+  topics: [deepfakes]
+
+- id: 3d-morphable-master-face-2025
+  type: journal
+  title: "3D Morphable Master Face: Towards Controllable Wolf Attacks against 2D and 3D Face Recognition Systems"
+  authors: "S. Liang, H. H. Nguyen, S. Ikehata, J. Yamagishi, I. Echizen"
+  venue: "APSIPA Transactions on Signal and Information Processing"
+  venue_short: "APSIPA Trans. SIP"
+  year: 2025
+  details: "vol. 14, no. 3"
+  topics: [adversarial]
+
+- id: lookupforensics-2025
+  type: journal
+  title: "LookupForensics: A Large-Scale Multi-Task Dataset for Multi-Phase Image-Based Fact Verification"
+  authors: "S. Cui, H. H. Nguyen, T.-N. Le, C.-S. Lu and I. Echizen"
+  venue: "IEEE Access"
+  venue_short: "IEEE Access"
+  year: 2025
+  details: "vol. 13"
+  pages: "136505-136523"
+  topics: [deepfakes, misinformation]
+
+- id: 3ddgd-2025
+  type: journal
+  title: "3DDGD: 3D Deepfake Generation and Detection Using 3D Face Meshes"
+  authors: "H. Felouat, H. H. Nguyen, J. Yamagishi and I. Echizen"
+  venue: "IEEE Access"
+  venue_short: "IEEE Access"
+  year: 2025
+  details: "vol. 13"
+  pages: "107429-107441"
+  topics: [deepfakes]
+
+- id: reversible-anonymization-privacy-facial-2024
+  type: journal
+  title: "Reversible Anonymization for Privacy of Facial Biometrics Via Cyclic Learning"
+  authors: "C. C. Chang, S. Xu, H. H. Nguyen, and I. Echizen"
+  venue: "EURASIP Journal on Information Security"
+  venue_short: "EURASIP JIS"
+  year: 2024
+  details: "no. 1, art. 24"
+  topics: [privacy]
+
+- id: ekyc-df-2024
+  type: journal
+  title: "eKYC-DF: A Large-Scale Deepfake Dataset for Developing and Evaluating eKYC Systems"
+  authors: "H. Felouat, H. H. Nguyen, T.-N. Le, J. Yamagishi, and I. Echizen"
+  venue: "IEEE Access"
+  venue_short: "IEEE Access"
+  year: 2024
+  details: "vol. 12"
+  pages: "30876-30892"
+  topics: [deepfakes]
+  links:
+    paper: "https://ieeexplore.ieee.org/document/10444105"
+
+- id: analysis-fine-grained-counting-methods-2024
+  type: journal
+  title: "Analysis of Fine-Grained Counting Methods for Masked Face Counting: A Comparative Study"
+  authors: "K.-D. Nguyen, H. H. Nguyen, T.-N. Le, J. Yamagishi, and I. Echizen"
+  venue: "IEEE Access"
+  venue_short: "IEEE Access"
+  year: 2024
+  details: "vol. 12"
+  pages: "27426-27443"
+  topics: []
+  links:
+    paper: "https://ieeexplore.ieee.org/document/10440103"
+
+- id: cyber-vaccine-deepfake-immunity-2023
+  type: journal
+  title: "Cyber Vaccine for Deepfake Immunity"
+  authors: "C. C. Chang, H. H. Nguyen, J. Yamagishi, and I. Echizen."
+  venue: "IEEE Access"
+  venue_short: "IEEE Access"
+  year: 2023
+  details: "vol. 11"
+  pages: "105027-105039"
+  topics: [deepfakes]
+  links:
+    paper: "https://ieeexplore.ieee.org/abstract/document/10238689"
+
+- id: purifying-adversarial-images-adversarial-2023
+  type: journal
+  title: "Purifying Adversarial Images Using Adversarial Autoencoder with Conditional Normalizing Flows"
+  authors: "Y. Ji, T.-N. Le, H. H. Nguyen, and I. Echizen"
+  venue: "IEEE Open Journal of Signal Processing"
+  venue_short: "IEEE OJSP"
+  year: 2023
+  pages: "267-274"
+  topics: [adversarial]
+  links:
+    paper: "https://ieeexplore.ieee.org/document/10123077"
+
+- id: master-face-attacks-face-2022
+  type: journal
+  title: "Master Face Attacks on Face Recognition Systems"
+  authors: "H. H. Nguyen, S. Marcel, J. Yamagishi, and I. Echizen"
+  venue: "IEEE Transactions on Biometrics, Behavior, and Identity Science"
+  venue_short: "IEEE T-BIOM"
+  year: 2022
+  pages: "398-411"
+  selected: true
+  topics: [adversarial]
+  links:
+    paper: "https://ieeexplore.ieee.org/document/9758063"
+    arxiv: "https://arxiv.org/abs/2109.03398"
+
+- id: effects-image-processing-operations-2022
+  type: journal
+  title: "Effects of Image Processing Operations on Adversarial Noise and Their Use in Detecting and Correcting Adversarial Images"
+  authors: "H. H. Nguyen, M. Kuribayashi, J. Yamagishi, and I. Echizen"
+  venue: "IEICE Transactions on Information and Systems"
+  venue_short: "IEICE Trans. Inf. & Syst."
+  year: 2022
+  pages: "65-77"
+  award: "Excellent paper award"
+  topics: [adversarial]
+
+- id: potential-attacks-deepfake-ekyc-2022
+  type: journal
+  title: "Potential Attacks of DeepFake on eKYC Systems and Remedy for eKYC with DeepFake Detection Using Two-Stream Network of Facial Appearance and Motion Features"
+  authors: "T.-L. Do, M.-K. Tran, H. H. Nguyen, M.-T. Tran"
+  venue: "SN Computer Science"
+  venue_short: "SN Comput. Sci."
+  year: 2022
+  details: "vol. 3, no. 6, art. 464"
+  topics: [deepfakes, adversarial]
+
+- id: preventing-fake-information-generation-2021
+  type: journal
+  title: "Preventing Fake Information Generation Against Media Clone Attacks"
+  authors: "N. Babaguchi, I. Echizen, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, H. H. Nguyen, N. T. Tieu"
+  venue: "IEICE Transactions on Information and Systems"
+  venue_short: "IEICE Trans. Inf. & Syst."
+  year: 2021
+  pages: "2-11"
+  award: "IEICE-ISS Excellent Paper Award"
+  topics: [deepfakes, adversarial]
+
+- id: generation-detection-media-clones-2021
+  type: journal
+  title: "Generation and detection of Media Clones"
+  authors: "I. Echizen, N. Babaguchi, J. Yamagishi, N. Nitta, Y. Nakashima, K. Nakamura, K. Kono, F. Fang, S. Myojin, Z. Kuang, H. H. Nguyen, N. T. Tieu"
+  venue: "IEICE Transactions on Information and Systems"
+  venue_short: "IEICE Trans. Inf. & Syst."
+  year: 2021
+  pages: "12-23"
+  award: "IEICE-ISS Excellent Paper Award"
+  topics: [deepfakes]
+
+- id: spatio-temporal-generative-adversarial-network-2019
+  type: journal
+  title: "Spatio-temporal generative adversarial network for gait anonymization"
+  authors: "N.-D. Tieu, H. H. Nguyen, H.-Q. Nguyen-Son, J. Yamagishi, and I. Echizen"
+  venue: "Journal of Information Security and Applications"
+  venue_short: "JISA"
+  year: 2019
+  pages: "307-319"
+  topics: [privacy]
+
+- id: safegrad-2027
+  type: conference
+  title: "SafeGrad: A Severity-Graded Benchmark for Safety Evaluation, Defense, and Attack of Text-to-Image Models"
+  authors: "M.-D. Vo, J. Li, H. H. Nguyen, P. Kavumba, and K. Wataoka"
+  venue: "Winter Conference on Applications of Computer Vision (WACV)"
+  venue_short: "WACV"
+  year: 2027
+  selected: true
+  topics: [ai-safety, adversarial]
+
+- id: guardrail-trinity-2026
+  type: conference
+  title: "The Guardrail Trinity: Procedural Safety Schemas, Reasoning Chain Decomposition, and Dual-Mode Inference for LLM Guardrails"
+  authors: "H. H. Nguyen, P. Kavumba, J. Li, M.-D. Vo, and K. Wataoka"
+  venue: "Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP)"
+  venue_short: "AACL-IJCNLP"
+  year: 2026
+  details: "Main"
+  selected: true
+  topics: [ai-safety]
+
+- id: gcotd-2026
+  type: conference
+  title: "GCoTD: A Non-Intrusive Diagnostic Pipeline for Black-Box LLM Backdoor Detection via Graph Chain-of-Thought"
+  authors: "C. Jia, A. P. MaungMaung, H. H. Nguyen, I. Echizen, and J. Chen"
+  venue: "Findings of the Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP)"
+  venue_short: "AACL-IJCNLP Findings"
+  year: 2026
+  topics: [ai-safety, adversarial]
+
+- id: vlms-share-safety-neurons-2026
+  type: conference
+  title: "Do VLMs Share Safety Neurons Across Modalities?"
+  authors: "J. Li, J. Zhang, M.-D. Vo, H. H. Nguyen, P. Kavumba, and K. Wataoka"
+  venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+  venue_short: "EMNLP"
+  year: 2026
+  details: "Main Track"
+  selected: true
+  topics: [ai-safety]
+
+- id: beyond-standard-benchmarks-2026
+  type: conference
+  title: "Beyond Standard Benchmarks: A Systematic Audit of Vision-Language Model's Robustness to Natural Semantic Variation Across Diverse Tasks"
+  authors: "C. Jia, A. P. MaungMaung, H. H. Nguyen, J. Chen, and I. Echizen"
+  venue: "International Conference on Pattern Recognition (ICPR)"
+  venue_short: "ICPR"
+  year: 2026
+  pages: "96-110"
+  topics: [ai-safety, adversarial]
+
+- id: foundation-models-as-guardrails-2025
+  type: conference
+  title: "Foundation Models as Guardrails: LLM- and VLM-Based Approaches to Safety and Alignment"
+  authors: "H. H. Nguyen, P. Kavumba, T. Kurosawa, and K. Wataoka"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2025
+  pages: "2564-2569"
+  award: "Best Perspective Paper Award"
+  selected: true
+  topics: [ai-safety]
+
+- id: multilingual-multimodal-dataset-disinformation-2025
+  type: conference
+  title: "A Multilingual, Multimodal Dataset for Disinformation and Out-of-Context Analysis with Rich Supportive Information"
+  authors: "S. Cui, P. Navas, H. Wang, C.-C. Chang, H. H. Nguyen, I. Echizen"
+  venue: "International Conference on Multimodal Interaction (ICMI)"
+  venue_short: "ICMI"
+  year: 2025
+  topics: [misinformation]
+
+- id: measuring-human-involvement-ai-generated-2025
+  type: conference
+  title: "Measuring Human Involvement in AI-Generated Text: A Case Study on Academic Writing"
+  authors: "Y. Guo, Z. Dou, H. H. Nguyen, C.-C. Chang, S. Sugawara, and I. Echizen"
+  venue: "International Joint Conference on Neural Networks (IJCNN)"
+  venue_short: "IJCNN"
+  year: 2025
+  topics: [misinformation]
+
+- id: controllable-3d-deepfake-generation-2025
+  type: conference
+  title: "A Controllable 3D Deepfake Generation Framework with Gaussian Splatting"
+  authors: "W. Liu, S. Liang, H. H. Nguyen, and I. Echizen"
+  venue: "International Joint Conference on Biometrics (IJCB)"
+  venue_short: "IJCB"
+  year: 2025
+  topics: [deepfakes]
+
+- id: zero-shot-warning-generation-misinformative-2025
+  type: workshop
+  title: "Zero-Shot Warning Generation for Misinformative Multimodal Content"
+  authors: "G. Delvecchio, H. H. Nguyen, and I. Echizen"
+  venue: "Workshop on Artificial Intelligence for Multimedia Forensics and Disinformation Detection (AI4MFDD) at Winter Conference on Applications of Computer Vision (WACV-W)"
+  venue_short: "WACV-W"
+  year: 2025
+  topics: [misinformation]
+
+- id: mitigating-backdoor-attacks-activation-guided-2024
+  type: workshop
+  title: "Mitigating Backdoor Attacks using Activation-Guided Model Editing"
+  authors: "F. Hsieh, H. H. Nguyen, A. P. MaungMaung, D. Usynin, and I. Echizen"
+  venue: "Large Vision – Language Model Learning and Applications Workshop, Asian Conference on Computer Vision (ACCV-W)"
+  venue_short: "ACCV-W"
+  year: 2024
+  pages: "302-318"
+  topics: [adversarial]
+
+- id: transfer-based-adversarial-attack-against-2024
+  type: conference
+  title: "Transfer-Based Adversarial Attack Against Multimodal Models by Exploiting Perturbed Attention Region"
+  authors: "R. Disabato, A. P. MaungMaung, H. H. Nguyen, I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2024
+  pages: "1-6"
+  topics: [adversarial]
+
+- id: exploring-self-supervised-vision-transformers-2024
+  type: conference
+  title: "Exploring Self-Supervised Vision Transformers for Deepfake Detection: A Comparative Analysis"
+  authors: "H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "International Joint Conference on Biometrics (IJCB)"
+  venue_short: "IJCB"
+  year: 2024
+  pages: "1-10"
+  topics: [deepfakes]
+
+- id: generalized-deepfakes-detection-reconstructed-blended-2024
+  type: conference
+  title: "Generalized Deepfakes Detection with Reconstructed-Blended Images and Multi-scale Feature Reconstruction Network"
+  authors: "Y. Sun, H. H. Nguyen, C.-S. Lu, Z. Zhang, L. Sun, and I. Echizen"
+  venue: "International Joint Conference on Biometrics (IJCB)"
+  venue_short: "IJCB"
+  year: 2024
+  pages: "1-11"
+  topics: [deepfakes]
+
+- id: analysis-backdoor-attacks-deepfake-2024
+  type: conference
+  title: "Analysis of Backdoor Attacks on Deepfake Detection"
+  authors: "Y. Qiu, H. H. Nguyen, Q. Liao, C.-S. Lu, and I. Echizen"
+  venue: "International Joint Conference on Biometrics (IJCB)"
+  venue_short: "IJCB"
+  year: 2024
+  pages: "1-9"
+  topics: [deepfakes, adversarial]
+
+- id: exploring-active-data-selection-2024
+  type: conference
+  title: "Exploring Active Data Selection Strategies for Continuous Training in Deepfake Detection"
+  authors: "Y. Furuhashi, X. Wang, J. Yamagishi, H. H. Nguyen, and I. Echizen"
+  venue: "International Conference of the Biometrics Special Interest Group (BIOSIG)"
+  venue_short: "BIOSIG"
+  year: 2024
+  pages: "1-5"
+  topics: [deepfakes]
+
+- id: fine-tuning-text-to-image-diffusion-models-2024
+  type: conference
+  title: "Fine-Tuning Text-To-Image Diffusion Models for Class-Wise Spurious Feature Generation"
+  authors: "A. P. MaungMaung, H. H. Nguyen, H. Kiya, and I. Echizen"
+  venue: "International Conference on Image Processing (ICIP)"
+  venue_short: "ICIP"
+  year: 2024
+  pages: "3910-3916"
+  topics: [adversarial]
+  links:
+    arxiv: "https://arxiv.org/abs/2402.08200"
+
+- id: defending-against-physical-adversarial-2024
+  type: conference
+  title: "Defending Against Physical Adversarial Patch Attacks on Infrared Human Detection"
+  authors: "L. Strack, F. Waseda, H. H. Nguyen, Y. Zheng, and I. Echizen"
+  venue: "International Conference on Image Processing (ICIP)"
+  venue_short: "ICIP"
+  year: 2024
+  pages: "3896-3902"
+  topics: [adversarial]
+  links:
+    arxiv: "https://arxiv.org/abs/2309.15519"
+
+- id: cross-attention-watermarking-large-language-2024
+  type: conference
+  title: "Cross-Attention Watermarking of Large Language Models"
+  authors: "F. B. Baldassini, H. H. Nguyen, C. C. Chang, and I. Echizen"
+  venue: "International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  venue_short: "ICASSP"
+  year: 2024
+  pages: "4625-4629"
+  topics: [misinformation]
+  links:
+    code: "https://gitlab.com/folbaeni/linguistic-watermark"
+
+- id: leveraging-chat-based-large-vision-language-2024
+  type: conference
+  title: "Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection"
+  authors: "F. Shalabi, H. Felouat, H. H. Nguyen, and I. Echizen"
+  venue: "International Conference on Advanced Information Networking and Applications (AINA)"
+  venue_short: "AINA"
+  year: 2024
+  pages: "86-98"
+  topics: [ai-safety, misinformation]
+
+- id: enhancing-robustness-llm-synthetic-text-2024
+  type: conference
+  title: "Enhancing Robustness of LLM-Synthetic Text Detectors for Academic Writing: A Comprehensive Analysis"
+  authors: "Z. Dou, Y. Guo, H. H. Nguyen, C. C. Chang, and I. Echizen"
+  venue: "International Conference on Advanced Information Networking and Applications (AINA)"
+  venue_short: "AINA"
+  year: 2024
+  pages: "266-277"
+  topics: [adversarial, misinformation]
+  links:
+    arxiv: "https://arxiv.org/abs/2401.08046"
+
+- id: deconstruction-reconstruction-plug-in-module-2023
+  type: conference
+  title: "From Deconstruction to Reconstruction: A Plug-in Module for Diffusion-Based Purification of Adversarial Examples"
+  authors: "E. Bao, C. C. Chang, H. H. Nguyen, and I. Echizen"
+  venue: "International Workshops on Digital-forensics and Watermarking (IWDW)"
+  venue_short: "IWDW"
+  year: 2023
+  pages: "48-62"
+  topics: [adversarial]
+
+- id: quality-assurance-gpt-based-sentiment-2023
+  type: conference
+  title: "Quality Assurance of A GPT-based Sentiment Analysis System: Adversarial Review Data Generation and Detection"
+  authors: "T. Ouyang, H.-Q. Nguyen-Son, H. H. Nguyen*, I. Echizen, Y. Seo"
+  venue: "Asia-Pacific Software Engineering Conference (APSEC)"
+  venue_short: "APSEC"
+  year: 2023
+  pages: "450-457"
+  topics: [adversarial]
+
+- id: image-text-out-of-context-detection-synthetic-2023
+  type: conference
+  title: "Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation"
+  authors: "F. Shalabi*, H. H. Nguyen*, H. Felouat, C. C. Chang, and I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2023
+  pages: "605-612"
+  topics: [misinformation]
+
+- id: physics-based-adversarial-attack-near-infrared-2023
+  type: conference
+  title: "Physics-Based Adversarial Attack on Near-Infrared Human Detector for Nighttime Surveillance Camera Systems"
+  authors: "M. Niu, Z. Li, Y. Zhan, H. H. Nguyen, I. Echizen, and Y. Zheng"
+  venue: "ACM Multimedia (MM)"
+  venue_short: "MM"
+  year: 2023
+  pages: "8799-8807"
+  topics: [adversarial]
+  links:
+    doi: "https://doi.org/10.1145/3581783.3612082"
+    code: "https://github.com/MyNiuuu/AdvNIR"
+
+- id: close-other-computer-vision-2023
+  type: conference
+  title: "How Close are Other Computer Vision Tasks to Deepfake Detection?"
+  authors: "H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "International Joint Conference on Biometrics (IJCB)"
+  venue_short: "IJCB"
+  year: 2023
+  pages: "229-238"
+  topics: [deepfakes]
+  links:
+    arxiv: "https://arxiv.org/abs/2310.00922"
+
+- id: analysis-master-vein-attacks-2023
+  type: conference
+  title: "Analysis of Master Vein Attacks on Finger Vein Recognition Systems"
+  authors: "H. H. Nguyen, T.-N. Le, J. Yamagishi, and I. Echizen"
+  venue: "Winter Conference on Applications of Computer Vision (WACV)"
+  venue_short: "WACV"
+  year: 2023
+  pages: "1900-1908"
+  topics: [adversarial]
+  links:
+    arxiv: "https://arxiv.org/abs/2210.10667"
+
+- id: closer-look-at-transferability-2023
+  type: conference
+  title: "Closer Look at the Transferability of Adversarial Examples: How They Fool Different Models Differently"
+  authors: "F. Waseda, S. Nishikawa, T.-N. Le, H. H. Nguyen, and I. Echizen"
+  venue: "Winter Conference on Applications of Computer Vision (WACV)"
+  venue_short: "WACV"
+  year: 2023
+  pages: "1360-1368"
+  topics: [adversarial]
+  links:
+    arxiv: "https://arxiv.org/abs/2112.14337"
+
+- id: face-forgery-detection-facial-2023
+  type: workshop
+  title: "Face Forgery Detection Based on Facial Region Displacement Trajectory Series"
+  authors: "Y. Sun, Z. Zhang, I. Echizen, H. H. Nguyen, C. Qiu, and S. Lu"
+  venue: "Winter Conference on Applications of Computer Vision Workshop (WACV-W)"
+  venue_short: "WACV-W"
+  year: 2023
+  pages: "633-642"
+  topics: [deepfakes]
+
+- id: rethinking-adversarial-examples-location-2022
+  type: conference
+  title: "Rethinking Adversarial Examples for Location Privacy Protection"
+  authors: "T.-N. Le*, T. Gu*, H. H. Nguyen*, and I. Echizen"
+  venue: "International Workshop on Information Forensics and Security (WIFS)"
+  venue_short: "WIFS"
+  year: 2022
+  pages: "1-6"
+  topics: [adversarial, privacy]
+  links:
+    arxiv: "https://arxiv.org/abs/2206.14020"
+
+- id: openforensics-2021
+  type: conference
+  title: "OpenForensics: Large-Scale Challenging Dataset for Multi-Face Forgery Detection and Segmentation In-The-Wild"
+  authors: "T.-N. Le, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Computer Vision (ICCV)"
+  venue_short: "ICCV"
+  year: 2021
+  pages: "10117-10127"
+  selected: true
+  topics: [deepfakes]
+  links:
+    pdf: "https://openaccess.thecvf.com/content/ICCV2021/papers/Le_OpenForensics_Large-Scale_Challenging_Dataset_for_Multi-Face_Forgery_Detection_and_Segmentation_ICCV_2021_paper.pdf"
+    dataset: "https://zenodo.org/record/5528418"
+    code: "https://github.com/ltnghia/openforensics"
+
+- id: fashion-guided-adversarial-attack-person-2021
+  type: workshop
+  title: "Fashion-Guided Adversarial Attack on Person Segmentation"
+  authors: "M. Treu*, T.-N. Le*, H. H. Nguyen*, J. Yamagishi, and I. Echizen"
+  venue: "Conference on Computer Vision and Pattern Recognition Workshop (CVPR-W)"
+  venue_short: "CVPR-W"
+  year: 2021
+  pages: "943-952"
+  topics: [adversarial]
+  links:
+    pdf: "https://openaccess.thecvf.com/content/CVPR2021W/WMF/papers/Treu_Fashion-Guided_Adversarial_Attack_on_Person_Segmentation_CVPRW_2021_paper.pdf"
+
+- id: effectiveness-detection-based-regression-based-approaches-2021
+  type: workshop
+  title: "Effectiveness of Detection-based and Regression-based Approaches for Estimating Mask-Wearing Ratio"
+  authors: "K.-D. Nguyen, T.-N. Le, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "Workshop on Face and Gesture Analysis for COVID-19"
+  venue_short: "COVID-19 Workshop"
+  year: 2021
+  pages: "1-8"
+  topics: []
+
+- id: feature-extraction-denoising-autoencoder-2021
+  type: conference
+  title: "Feature Extraction Based on Denoising AutoEncoder for Classification of Adversarial Examples"
+  authors: "Y. Yamasaki, M. Kuribayashi, N. Funabiki, H. H. Nguyen, I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2021
+  pages: "1815-1820"
+  topics: [adversarial]
+
+- id: potential-threat-face-swapping-2021
+  type: conference
+  title: "Potential Threat of Face Swapping to eKYC with Face Registration and Augmented Solution with DeepFake Detection"
+  authors: "T.-L. Do, M.-K. Tran, H. H. Nguyen, M.-T. Tran"
+  venue: "International Conference on Future Data and Security Engineering (FDSE)"
+  venue_short: "FDSE"
+  year: 2021
+  pages: "293-307"
+  topics: [deepfakes]
+
+- id: method-identifying-origin-digital-2020
+  type: conference
+  title: "A Method for Identifying Origin of Digital Images Using a Convolution Neural Network"
+  authors: "R. Huang, F. Fang, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2020
+  pages: "1293-1299"
+  topics: [deepfakes]
+
+- id: detection-adversarial-examples-sensitivities-2020
+  type: conference
+  title: "Detection of Adversarial Examples Based on Sensitivities to Noise Removal Filter"
+  authors: "A. Higashi, M. Kuribayashi, N. Funabiki, H. H. Nguyen, and I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2020
+  pages: "1386-1391"
+  topics: [adversarial]
+
+- id: viable-threat-news-reading-2020
+  type: workshop
+  title: "Viable Threat on News Reading: Generating Biased News Using Natural Language Models"
+  authors: "S. Gupta, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "NLP+CSS workshop at Empirical Methods in Natural Language Processing (EMNLP-W)"
+  venue_short: "EMNLP-W"
+  year: 2020
+  pages: "55-65"
+  topics: [misinformation]
+
+- id: security-facial-forensics-models-2020
+  type: conference
+  title: "Security of Facial Forensics Models Against Adversarial Attacks"
+  authors: "R. Huang, F. Fang, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Image Processing (ICIP)"
+  venue_short: "ICIP"
+  year: 2020
+  pages: "2236-2240"
+  topics: [deepfakes, adversarial]
+
+- id: generating-sentiment-preserving-fake-online-2020
+  type: conference
+  title: "Generating Sentiment-Preserving Fake Online Reviews Using Neural Language Models and Their Human- and Machine-based Detection"
+  authors: "D. I. Adelani, H. Mai, F. Fang, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Advanced Information Networking and Applications (AINA)"
+  venue_short: "AINA"
+  year: 2020
+  pages: "1341-1354"
+  topics: [misinformation]
+
+- id: generating-master-faces-use-2020
+  type: conference
+  title: "Generating Master Faces for Use in Performing Wolf Attacks on Face Recognition Systems"
+  authors: "H. H. Nguyen, J. Yamagishi, I. Echizen, and S. Marcel"
+  venue: "International Joint Conference on Biometrics (IJCB)"
+  venue_short: "IJCB"
+  year: 2020
+  pages: "1-10"
+  topics: [adversarial]
+  links:
+    paper: "https://ieeexplore.ieee.org/document/9304893"
+    arxiv: "https://arxiv.org/abs/2006.08376"
+
+- id: multi-task-learning-detecting-segmenting-2019
+  type: conference
+  title: "Multi-task Learning for Detecting and Segmenting Manipulated Facial Images and Videos"
+  authors: "H. H. Nguyen, F. Fang, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Biometrics: Theory, Applications and Systems (BTAS)"
+  venue_short: "BTAS"
+  year: 2019
+  pages: "1-8"
+  award: "BTAS/IJCB 5-Year Highest Impact Award"
+  selected: true
+  topics: [deepfakes]
+  links:
+    paper: "https://ieeexplore.ieee.org/document/9185974"
+    arxiv: "https://arxiv.org/abs/1906.06876"
+    code: "https://github.com/nii-yamagishilab/ClassNSeg"
+
+- id: capsule-forensics-2019
+  type: conference
+  title: "Capsule-Forensics: Using Capsule Networks to Detect Forged Images and Videos"
+  authors: "H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Acoustics, Speech, and Signal Processing (ICASSP)"
+  venue_short: "ICASSP"
+  year: 2019
+  pages: "2307-2311"
+  selected: true
+  topics: [deepfakes]
+  links:
+    paper: "https://ieeexplore.ieee.org/document/8682602"
+    arxiv: "https://arxiv.org/abs/1810.11215"
+    code: "https://github.com/nii-yamagishilab/Capsule-Forensics"
+
+- id: rgb-gait-anonymization-model-2019
+  type: conference
+  title: "An RGB Gait Anonymization Model for Low Quality Silhouette"
+  authors: "N.-D. Tieu, H. H. Nguyen, F. Fang, J. Yamagishi, and I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2019
+  pages: "1686-1693"
+  topics: [privacy]
+
+- id: identifying-computer-translated-paragraphs-coherence-2018
+  type: conference
+  title: "Identifying Computer-Translated Paragraphs using Coherence Features"
+  authors: "H.-Q. Nguyen-Son, H. H. Nguyen, N.-D. Tieu, J. Yamagishi, and I. Echizen"
+  venue: "Pacific Asia Conference on Language, Information and Computation (PACLIC)"
+  venue_short: "PACLIC"
+  year: 2018
+  pages: "486-494"
+  topics: [misinformation]
+
+- id: modular-convolutional-neural-network-2018
+  type: conference
+  title: "Modular Convolutional Neural Network for Discriminating between Computer-Generated Images and Photographic Images"
+  authors: "H. H. Nguyen, T. N.-D. Tieu, H.-Q. Nguyen-Son, V. Nozick, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Availability, Reliability and Security (ARES)"
+  venue_short: "ARES"
+  year: 2018
+  pages: "1-10"
+  topics: [deepfakes]
+
+- id: transformation-computer-generated-facial-image-2018
+  type: conference
+  title: "Transformation on Computer-Generated Facial Image to Avoid Detection by Spoofing Detector"
+  authors: "H. H. Nguyen, T. N.-D. Tieu, H.-Q. Nguyen-Son, J. Yamagishi, and I. Echizen"
+  venue: "International Conference on Multimedia and Expo (ICME)"
+  venue_short: "ICME"
+  year: 2018
+  pages: "1-6"
+  topics: [deepfakes]
+
+- id: approach-gait-anonymization-deep-2017
+  type: conference
+  title: "An Approach for Gait Anonymization using Deep Learning"
+  authors: "T. N.-D. Tieu, H. H. Nguyen, H. Nguyen-Son, J. Yamagishi, and I. Echizen"
+  venue: "International Workshop on Information Forensics and Security (WIFS)"
+  venue_short: "WIFS"
+  year: 2017
+  pages: "1-6"
+  award: "Best Paper Award"
+  topics: [privacy]
+
+- id: identifying-computer-generated-text-statistical-2017
+  type: conference
+  title: "Identifying computer-generated text using statistical analysis"
+  authors: "H.-Q. Nguyen-Son, N.-D. Tieu, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  venue_short: "APSIPA ASC"
+  year: 2017
+  pages: "1504-1511"
+  topics: [misinformation]
+
+- id: discriminating-between-computer-generated-facial-2015
+  type: conference
+  title: "Discriminating between computer-generated facial images and natural ones using smoothness property and local entropy"
+  authors: "H. H. Nguyen, H. Nguyen-Son, and I. Echizen"
+  venue: "International Workshop on Digital Watermarking (IWDW)"
+  venue_short: "IWDW"
+  year: 2015
+  pages: "39-50"
+  topics: [deepfakes]
+
+- id: generalized-authentication-scheme-mobile-2015
+  type: conference
+  title: "A Generalized Authentication Scheme for Mobile Phones Using Gait Signals"
+  authors: "H. Nguyen, H. H. Nguyen, T. Hoang, D. Choi, and T. D. Nguyen"
+  venue: "International Conference on E-Business and Telecommunications"
+  venue_short: "ICETE"
+  year: 2015
+  pages: "386-407"
+  topics: []
+
+- id: jpeg-adversarial-detection-2019
+  type: conference
+  title: "JPEG圧縮による画像分類器の識別結果の変動解析に基づく敵対的事例の検知法"
+  authors: "東亮憲, 栗林稔, 舩曵信生, Nguyen Hong Huy, 越前功"
+  venue: "コンピュータセキュリティシンポジウム (CSS2019)"
+  venue_short: "CSS"
+  year: 2019
+  award: "PWS2019学生論文賞受賞"
+  topics: [adversarial]
+
+- id: capsule-forensics-networks-deepfake-detection-2022
+  type: chapter
+  title: "Capsule-Forensics Networks for Deepfake Detection"
+  authors: "H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "Handbook of Digital Face Manipulation and Detection – From DeepFakes to Morphing Attacks"
+  venue_short: "Book chapter"
+  year: 2022
+  pages: "275-301"
+  topics: [deepfakes]
+  links:
+    book: "https://link.springer.com/book/10.1007/978-3-030-87664-7"
+    code: "https://github.com/nii-yamagishilab/Capsule-Forensics-v2"
+
+- id: future-trends-digital-face-2022
+  type: chapter
+  title: "Future Trends in Digital Face Manipulation and Detection."
+  authors: "R. Tolosana, C. Rathgeb, R. Vera-Rodriguez, C. Busch, L. Verdoliva, S. Lyu, H. H. Nguyen, J. Yamagishi, I. Echizen, P. Rot et al."
+  venue: "Handbook of Digital Face Manipulation and Detection – From DeepFakes to Morphing Attacks"
+  venue_short: "Book chapter"
+  year: 2022
+  pages: "463-482"
+  topics: [deepfakes]
+
+- id: robust-deepfake-unrestricted-media-2022
+  type: chapter
+  title: "Robust Deepfake on Unrestricted Media: Generation and Detection"
+  authors: "T.-N. Le, H. H. Nguyen, J. Yamagishi, and I. Echizen"
+  venue: "Frontiers in Fake Media Generation and Detection"
+  venue_short: "Book chapter"
+  year: 2022
+  pages: "81-107"
+  topics: [deepfakes]
+  links:
+    book: "https://link.springer.com/book/9789811915239"
+
+- id: infodemic-ai-cybersecurity-2022
+  type: chapter
+  title: "インフォデミック時代のAIとサイバーセキュリティ"
+  authors: "越前功, 馬場口登, 笹原和俊, Trung-Nghia Le, Huy H. Nguyen, 山岸順一, Canasai Kruengkrai, 中島悠太, 李良知, 王博文, 宮崎邦洋, 小林正啓"
+  venue: "映像情報メディア学会誌76(4)"
+  venue_short: "ITE Journal"
+  year: 2022
+  pages: "10-15"
+  award: "Telecom Interdisciplinary Research Award"
+  topics: [deepfakes]
+
+- id: filter-strength-adversarial-detection-2021
+  type: other
+  title: "複数のフィルタ強度によるCNN画像分類器の応答特性を用いた敵対的事例の検出法"
+  authors: "東亮憲, 栗林稔, 舩曵信生, Nguyen Hong Huy, 越前功"
+  venue: "信学技報, EMM 3月"
+  venue_short: "IEICE Tech. Rep."
+  year: 2021
+  award: "2020年度 第6回EMM研究会 優秀学生発表賞"
+  topics: [adversarial]
