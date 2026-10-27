@@ -58,8 +58,9 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=8q1km_cAAAAJ&hl=en"
   email            :
-  email_user       : "huyhnguyen.work" # assembled into a mailto link by assets/js/main.js
-  email_domain     : "gmail.com"
+  # Email, reversed and base64-encoded so it never appears readable in the site or repo.
+  # Generate with: printf '%s' 'name@example.com' | rev | base64
+  email_encoded    : "bW9jLmxpYW1nQGtyb3cubmV5dWduaHl1aA=="
   researchgate     : "https://www.researchgate.net/profile/Huy-Nguyen-187"
   uri              :
   bitbucket        :

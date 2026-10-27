@@ -14,7 +14,9 @@ Most content lives in YAML files under `_data/`; the pages render it.
   BibTeX for the Cite button is generated from these fields.
 - `_data/research_topics.yml`: research themes used for homepage cards and publication filters.
 - `_data/talks.yml`, `_data/grants.yml`, `_data/projects.yml`: the matching pages.
-- `_config.yml` (`author`): name, positions, profile links, and the email address parts.
+- `_config.yml` (`author`): name, positions, and profile links. The email address is stored only
+  as `email_encoded` (generate it with `printf '%s' 'name@example.com' | rev | base64`) and shown
+  on the homepage as `images/email.png`, so it never appears as readable text.
 - Replace `files/CV.pdf` when publishing a new CV.
 
 Publication filters can be linked directly, for example `/publications/?topic=deepfakes` or

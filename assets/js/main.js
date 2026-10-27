@@ -52,15 +52,17 @@ document.addEventListener("DOMContentLoaded", function () {
   sync();
 });
 
-/* Assemble email links at runtime so the address is not in the HTML source. */
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("[data-email-user]").forEach(function (link) {
-    var address = link.dataset.emailUser + "@" + link.dataset.emailDomain;
-    link.href = "mailto:" + address;
-    link.querySelectorAll("[data-email-text]").forEach(function (text) {
-      text.textContent = address;
-    });
-  });
+/* Email: the address is stored reversed and base64-encoded, and decoded only when a
+   visitor clicks, so it never appears in the HTML or in a rendered-but-untouched page. */
+function decodeEmail(encoded) {
+  return atob(encoded).split("").reverse().join("");
+}
+
+document.addEventListener("click", function (event) {
+  var link = event.target.closest("a[data-email]");
+  if (!link) return;
+  event.preventDefault();
+  window.location.href = "mailto:" + decodeEmail(link.dataset.email);
 });
 
 /* Homepage news: show the latest five, expand the rest in place. */
@@ -86,17 +88,16 @@ document.addEventListener("DOMContentLoaded", function () {
   toggle.hidden = false;
 });
 
-/* Contact: copy the assembled email address. */
+/* Contact: copy the email address on request. */
 document.addEventListener("DOMContentLoaded", function () {
   var button = document.querySelector("[data-copy-email]");
-  var link = document.querySelector(".contact-card [data-email-user]");
-  if (!button || !link || !navigator.clipboard) return;
+  if (!button || !navigator.clipboard) return;
 
   var label = button.querySelector("span");
   var original = label.textContent;
   button.hidden = false;
   button.addEventListener("click", function () {
-    navigator.clipboard.writeText(link.dataset.emailUser + "@" + link.dataset.emailDomain).then(function () {
+    navigator.clipboard.writeText(decodeEmail(button.dataset.copyEmail)).then(function () {
       label.textContent = "Copied";
       setTimeout(function () { label.textContent = original; }, 1500);
     });

@@ -23,8 +23,8 @@ redirect_from:
     {% include profile-links.html icons_only=true %}
   </div>
   <picture class="hero__photo">
-    <source srcset="{{ '/images/profile-480.webp' | relative_url }}" type="image/webp">
-    <img src="{{ '/images/profile-480.jpg' | relative_url }}" alt="Portrait of Huy H. Nguyen" width="480" height="480" fetchpriority="high">
+    <source srcset="{{ '/images/profile-384.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/images/profile-384.jpg' | relative_url }}" alt="Portrait of Huy H. Nguyen" width="384" height="384" fetchpriority="high">
   </picture>
 </section>
 
@@ -115,10 +115,13 @@ I received a B.S. degree through the honors program at [VNUHCM - University of S
   <div>
     <p class="eyebrow">Get in touch</p>
     <h2 id="contact-title">Research conversations welcome.</h2>
-    <p>For research collaborations, talks, or academic inquiries, please email me.</p>
+    <p>For research collaborations, talks, or academic inquiries, please contact me at:</p>
   </div>
   <div class="contact-card__email">
-    <a class="button button--primary" href="#contact" data-email-user="{{ site.author.email_user }}" data-email-domain="{{ site.author.email_domain }}">{% include icon.html name="mail" %}<span data-email-text>{{ site.author.email_user }} (at) {{ site.author.email_domain | replace: ".", " (dot) " }}</span></a>
-    <button class="button" type="button" data-copy-email hidden>{% include icon.html name="copy" %}<span>Copy address</span></button>
+    <img class="contact-card__address" src="{{ '/images/email.png' | relative_url }}" alt="Email address, shown as an image. Use the buttons below to email or copy it." width="480" height="103" loading="lazy">
+    <div class="contact-card__actions">
+      <a class="button button--primary" href="#contact" data-email="{{ site.author.email_encoded }}">{% include icon.html name="mail" %}Send email</a>
+      <button class="button" type="button" data-copy-email="{{ site.author.email_encoded }}" hidden>{% include icon.html name="copy" %}<span>Copy address</span></button>
+    </div>
   </div>
 </section>
