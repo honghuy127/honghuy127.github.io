@@ -466,6 +466,7 @@
   venue_short: "WACV"
   year: 2023
   pages: "1360-1368"
+  selected: true
   topics: [adversarial]
   links:
     arxiv: "https://arxiv.org/abs/2112.14337"
@@ -597,6 +598,7 @@
   venue_short: "AINA"
   year: 2020
   pages: "1341-1354"
+  selected: true
   topics: [misinformation]
 
 - id: generating-master-faces-use-2020
