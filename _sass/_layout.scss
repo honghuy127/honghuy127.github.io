@@ -297,14 +297,14 @@ $breakpoint-nav: 48em; // 768px: menu button → inline navigation
 }
 
 .profile__avatar {
+  flex: none;
   width: 3.5rem;
   height: 3.5rem;
-  object-fit: cover;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 50%;
 
   @media (min-width: $breakpoint-md) {
-    display: block;
     width: 100%;
     height: auto;
     aspect-ratio: 1;

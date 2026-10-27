@@ -22,9 +22,9 @@ redirect_from:
     </div>
     {% include profile-links.html icons_only=true %}
   </div>
-  <picture>
+  <picture class="hero__photo">
     <source srcset="{{ '/images/profile-480.webp' | relative_url }}" type="image/webp">
-    <img class="hero__photo" src="{{ '/images/profile-480.jpg' | relative_url }}" alt="Portrait of Huy H. Nguyen" width="480" height="480" fetchpriority="high">
+    <img src="{{ '/images/profile-480.jpg' | relative_url }}" alt="Portrait of Huy H. Nguyen" width="480" height="480" fetchpriority="high">
   </picture>
 </section>
 

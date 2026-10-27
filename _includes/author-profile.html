@@ -1,9 +1,9 @@
 {% assign author = site.author %}
 <aside class="profile" aria-label="About {{ author.name }}">
   <div class="profile__identity">
-    <picture>
+    <picture class="profile__avatar">
       <source srcset="{{ '/images/profile-480.webp' | relative_url }}" type="image/webp">
-      <img class="profile__avatar" src="{{ '/images/profile-480.jpg' | relative_url }}" alt="" width="480" height="480">
+      <img src="{{ '/images/profile-480.jpg' | relative_url }}" alt="" width="480" height="480">
     </picture>
     <div>
       <p class="profile__name"><a href="{{ '/' | relative_url }}">{{ author.name }}</a></p>

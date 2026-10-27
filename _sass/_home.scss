@@ -7,13 +7,13 @@
   border-bottom: 1px solid var(--border);
 
   @media (min-width: $breakpoint-sm) {
-    grid-template-columns: minmax(0, 1fr) 11rem;
+    grid-template-columns: minmax(0, 1fr) 8rem;
     gap: 2.5rem;
     align-items: center;
   }
 
   @media (min-width: $breakpoint-md) {
-    grid-template-columns: minmax(0, 1fr) 15rem;
+    grid-template-columns: minmax(0, 1fr) 10rem;
     padding: 1rem 0 3.5rem;
   }
 
@@ -27,9 +27,9 @@
 
 .hero__photo {
   order: -1;
-  width: 6rem;
-  height: 6rem;
-  object-fit: cover;
+  width: 5.5rem;
+  height: 5.5rem;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 50%;
 
@@ -38,7 +38,6 @@
     width: 100%;
     height: auto;
     aspect-ratio: 1;
-    border-radius: var(--radius);
     box-shadow: var(--shadow);
   }
 }
