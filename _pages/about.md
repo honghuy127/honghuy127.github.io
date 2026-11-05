@@ -30,9 +30,7 @@ redirect_from:
 
 <section class="home-introduction" aria-label="About Huy" markdown="1">
 
-I am **Huy H. Nguyen** (Nguyễn Hồng Huy in Vietnamese), a researcher at [**SB Intuitions**](https://www.sbintuitions.co.jp/) (a SoftBank Group company) and a visiting associate professor at the [**National Institute of Informatics (NII)**](https://www.nii.ac.jp/en/), Japan. Previously, I was a project assistant professor (特任助教) at [Echizen Laboratory](https://research.nii.ac.jp/~iechizen/official/index-e.html), NII.
-
-I received a B.S. degree through the honors program at [VNUHCM - University of Science](https://en.hcmus.edu.vn/), Vietnam, in 2013, and a Ph.D. from [The Graduate University for Advanced Studies, SOKENDAI](https://www.soken.ac.jp/en/), in alliance with the [National Institute of Informatics](https://www.nii.ac.jp/en/), Japan, in 2022.
+**Huy H. Nguyen** is a researcher at [**SB Intuitions**](https://www.sbintuitions.co.jp/), a SoftBank Group company, and a visiting associate professor at the [**National Institute of Informatics (NII)**](https://www.nii.ac.jp/en/), Japan. His research focuses on AI safety, security, and privacy, with a current emphasis on guardrails and safety evaluation for large language models, vision-language models, and generative AI. Earlier, he worked on deepfake detection, multimedia forensics, adversarial machine learning, and misinformation. He received his Ph.D. from [SOKENDAI](https://www.soken.ac.jp/en/), in collaboration with NII, in 2022. His work has appeared at EMNLP, AACL-IJCNLP, ICCV, WACV, ICASSP, and IJCB.
 
 </section>
 
