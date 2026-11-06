@@ -22,6 +22,25 @@ Most content lives in YAML files under `_data/`; the pages render it.
 Publication filters can be linked directly, for example `/publications/?topic=deepfakes` or
 `/publications/?type=journal`.
 
+## GuardrailTrinity project page
+
+The standalone page at `/guardrail-trinity/` uses `_pages/guardrail-trinity.html`
+and `_layouts/project.html`. Edit authors, resource links, and BibTeX in
+`_data/guardrail_trinity.yml`; its CSS and JavaScript are scoped to
+`assets/css/guardrail-trinity.css` and `assets/js/guardrail-trinity.js`.
+
+The public paper and citation are in `files/guardrail-trinity/`. Figures and the
+social preview are in `assets/images/guardrail-trinity/`. Keep result wording and
+figure captions consistent with the camera-ready manuscript. The walkthrough is
+an authored illustration, not model inference. The page links only the paper
+and code; no slides, poster, or recorded talk will be released. Each resource's
+`kind` sets its card label, and the hero buttons look up the `paper` and `code`
+entries by kind.
+
+The layout check includes the project page. Use the full preflight below before
+publication, including checks of the example controls, citation copying, and
+light/dark appearance.
+
 ## Verification
 
 GitHub Actions runs a lightweight YAML and front-matter check on pull requests and

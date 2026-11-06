@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% assign project = site.data.guardrail_trinity %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ project.title | escape }}</title>
+    <meta name="description" content="{{ project.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ project.title | escape }}">
+    <meta property="og:description" content="{{ project.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/assets/images/guardrail-trinity/social-preview.png' | absolute_url }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="The Guardrail Trinity: procedural safety schemas, reasoning chain decomposition, and dual-mode inference. AACL-IJCNLP 2026.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="citation_title" content="{{ project.title | escape }}">
+    {% for author in project.authors %}<meta name="citation_author" content="{{ author.name | escape }}">
+    {% endfor %}<meta name="citation_publication_date" content="2026">
+    <meta name="citation_conference_title" content="AACL-IJCNLP 2026">
+    <meta name="citation_pdf_url" content="{{ '/files/guardrail-trinity/paper.pdf' | absolute_url }}">
+    <meta name="theme-color" content="#f7f8f5">
+    <link rel="icon" href="{{ '/assets/images/guardrail-trinity/mark.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/guardrail-trinity.css' | relative_url }}">
+    <script>
+      try {
+        var savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+      } catch (error) {}
+    </script>
+    <script src="{{ '/assets/js/guardrail-trinity.js' | relative_url }}" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="#overview" aria-label="GuardrailTrinity overview">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 29 26H3Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="4" r="3.5" fill="var(--blue)"/><circle cx="28" cy="26" r="3.5" fill="var(--teal)"/><circle cx="4" cy="26" r="3.5" fill="var(--amber)"/></svg>
+          <span>Guardrail<span class="brand-light">Trinity</span></span>
+        </a>
+        <nav aria-label="Project sections">
+          <a href="#method">Method</a>
+          <a href="#examples">Example</a>
+          <a href="#results">Results</a>
+          <a href="#resources">Resources</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13.3A8.8 8.8 0 0 1 10.7 3.5a8.8 8.8 0 1 0 9.8 9.8Z"/></svg></button>
+          <a class="nav-cite" href="#cite">Cite <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">{{ content }}</main>
+    <footer class="site-footer wrap">
+      <a class="brand" href="#overview">GuardrailTrinity</a>
+      <p>SB Intuitions Corp. · National Institute of Informatics</p>
+      <a href="{{ '/' | relative_url }}">Huy H. Nguyen <span aria-hidden="true">↗</span></a>
+    </footer>
+  </body>
+</html>

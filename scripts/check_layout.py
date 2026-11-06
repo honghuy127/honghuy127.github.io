@@ -17,7 +17,7 @@ from playwright.sync_api import sync_playwright
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "_site"
 OUT = ROOT / "tmp" / "screenshots"
-PAGES = ["", "publications/", "talks/", "projects/", "grants/", "sitemap/", "404.html"]
+PAGES = ["", "publications/", "talks/", "projects/", "guardrail-trinity/", "grants/", "sitemap/", "404.html"]
 VIEWPORTS = {"phone": (390, 844), "tablet": (820, 1180), "desktop": (1440, 900)}
 
 

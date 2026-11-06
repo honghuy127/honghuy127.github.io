@@ -1,0 +1,37 @@
+name: GuardrailTrinity
+title: "The Guardrail Trinity: Procedural Safety Schemas, Reasoning Chain Decomposition, and Dual-Mode Inference for LLM Guardrails"
+description: "A data-curation recipe for policy-adaptive LLM guardrails: procedural safety schemas, decomposed reasoning, and one model for fast and slow inference. AACL-IJCNLP 2026."
+venue: AACL-IJCNLP 2026
+track: Main Conference
+authors:
+  - name: Huy H. Nguyen
+    affiliations: "1,2"
+    url: https://honghuy127.github.io/
+  - name: Pride Kavumba
+    affiliations: "1"
+    url: https://pkavumba.github.io/
+  - name: Jiaxuan Li
+    affiliations: "1"
+    url: https://jiaxuan-li.github.io/
+  - name: Duc Minh Vo
+    affiliations: "1"
+    url: https://vmdlab.github.io/
+  - name: Koki Wataoka
+    affiliations: "1"
+    url: https://wataoka.github.io/
+resources:
+  - label: Read the paper
+    description: Camera-ready manuscript · PDF
+    url: /files/guardrail-trinity/paper.pdf
+    kind: paper
+  - label: Explore the code
+    description: Data construction, training, and evaluation
+    url: https://github.com/sbintuitions/GuardrailTrinity
+    kind: code
+bibtex: |
+  @inproceedings{nguyen2026guardrail,
+    title = {The Guardrail Trinity: Procedural Safety Schemas, Reasoning Chain Decomposition, and Dual-Mode Inference for {LLM} Guardrails},
+    author = {Nguyen, Huy H. and Kavumba, Pride and Li, Jiaxuan and Vo, Duc Minh and Wataoka, Koki},
+    booktitle = {Proceedings of the 5th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 15th International Joint Conference on Natural Language Processing (AACL-IJCNLP 2026)},
+    year = {2026}
+  }

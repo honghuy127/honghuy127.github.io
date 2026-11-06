@@ -1,0 +1,124 @@
+---
+layout: project
+title: The Guardrail Trinity
+permalink: /guardrail-trinity/
+author_profile: false
+---
+{% assign project = site.data.guardrail_trinity %}
+<section class="hero wrap" id="overview" aria-labelledby="project-title">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> {{ project.venue }} <span class="eyebrow-sep">/</span> {{ project.track }}</p>
+    <h1 id="project-title">The Guardrail<br><em>Trinity.</em></h1>
+    <p class="hero-subtitle">Procedural Safety Schemas, Reasoning Chain Decomposition, and Dual-Mode Inference for LLM Guardrails</p>
+    <p class="hero-deck">Safety depends on the policy, the context, and the way you ask a model to decide. We curate training data for all three.</p>
+    <div class="hero-actions">
+      {% assign paper_resource = project.resources | where: "kind", "paper" | first %}{% assign code_resource = project.resources | where: "kind", "code" | first %}
+      {% if paper_resource %}<a class="button primary" href="{{ paper_resource.url | relative_url }}">Read the paper <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if code_resource %}<a class="button" href="{{ code_resource.url }}"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 20"/></svg> Code</a>{% endif %}
+    </div>
+    <div class="byline">{% for author in project.authors %}<span><a href="{{ author.url }}">{{ author.name }}</a><sup>{{ author.affiliations }}</sup>{% unless forloop.last %}<span class="author-sep">,</span>{% endunless %}</span> {% endfor %}</div>
+    <p class="affiliations"><span><sup>1</sup> SB Intuitions Corp., Japan</span><span><sup>2</sup> National Institute of Informatics, Japan</span></p>
+    <p class="work-note">Work done at SB Intuitions Corp.</p>
+  </div>
+  <figure class="trinity-diagram" aria-labelledby="diagram-caption">
+    <figcaption id="diagram-caption"><span class="mini-label">The training recipe</span><span class="diagram-tag">01 + 02 + 03</span></figcaption>
+    <div class="diagram-step schema">
+      <div class="diagram-step-title"><span class="step-number">01</span><strong>Vary the schema</strong><span class="step-type">POLICY</span></div>
+      <div class="schema-tokens"><code>RULE-1</code><span aria-hidden="true">⇄</span><code>CAT_A</code><span aria-hidden="true">⇄</span><code>{ "S9": … }</code></div>
+      <p>Same meaning. Different codes and formats.</p>
+    </div>
+    <div class="diagram-step reasoning">
+      <div class="diagram-step-title"><span class="step-number">02</span><strong>Separate the reasoning</strong><span class="step-type">CONTEXT</span></div>
+      <div class="reasoning-tokens"><span>User intent</span><b aria-hidden="true">→</b><span>Agent behavior</span><b aria-hidden="true">→</b><span>Policy match</span></div>
+      <p>Distinguish sensitive words from violations.</p>
+    </div>
+    <div class="diagram-step blend">
+      <div class="diagram-step-title"><span class="step-number">03</span><strong>Blend the targets</strong><span class="step-type">MODE</span></div>
+      <div class="blend-track" role="img" aria-label="Nominal three-to-one ratio of fast to slow training instances"><span></span><span></span><span></span><span></span></div>
+      <div class="blend-labels"><span>3 × direct classification</span><span>1 × reasoning</span></div>
+    </div>
+    <div class="merge-connector" aria-hidden="true"><span></span>↓<span></span></div>
+    <div class="shared-model"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9 5v10l-9 5-9-5V7Zm0 10 9-5M12 12 3 7m9 5v10"/></svg><strong>One set of weights</strong></div>
+    <div class="mode-outputs"><div><span class="output-dot fast-dot"></span><strong>Fast</strong><span>Direct verdict</span></div><div><span class="output-dot slow-dot"></span><strong>Slow</strong><span>Analysis + verdict</span></div></div>
+  </figure>
+</section>
+
+<div class="wrap evidence-strip" aria-label="Selected findings">
+  <div><span class="stat">+7.0<span> pp</span></span><p>PolicyShift Macro-F1 over<br>the strongest evaluated baseline</p></div>
+  <div><span class="stat">27<span> / 27</span></span><p>Procedural Qwen3 variants above<br>the best baseline on PolicyShift</p></div>
+  <div><span class="stat">9<span> / 9</span></span><p>Paired Hybrid comparisons favor<br>fast mode in mean PolicyShift F1</p></div>
+</div>
+
+<section class="section wrap motivation" aria-labelledby="motivation-title">
+  <div class="section-heading"><p class="eyebrow">The question</p><h2 id="motivation-title">A good safety score.<br><em>Whose policy?</em></h2></div>
+  <div class="motivation-copy"><p class="lead">A model can recognize harmful content and still struggle to follow an operator’s rules.</p><p>Standard moderation, policy adaptation, and precision on benign inputs test different things. A fixed taxonomy can become a shortcut. Sensitive words can trigger false alarms. Adding reasoning introduces another training objective to balance.</p><p>GuardrailTrinity brings these demands into a single <strong>data-curation recipe</strong>, evaluated across Llama-3.1-8B and Qwen3 at 8B, 14B, and 32B, with three training seeds.</p></div>
+</section>
+
+<section class="section method-section" id="method" aria-labelledby="method-title">
+  <div class="wrap">
+    <div class="section-heading"><p class="eyebrow">The method</p><h2 id="method-title">Three changes to the data.<br><em>Two ways to decide.</em></h2><p class="section-deck">The contribution is how established ingredients work together—and how their behavior changes with recipe, scale, and inference mode.</p></div>
+    <div class="method-grid">
+      <article class="method-card schema"><span class="method-index">01 / POLICY</span><h3>Procedural <br>safety schemas</h3><p>Randomize category identifiers, order, and rendering. Train the model to cite the policy in front of it, even when the codes and format change.</p><div class="method-detail"><code>List → JSON → Paragraph</code><span>Vary the presentation. Preserve the rule.</span></div></article>
+      <article class="method-card reasoning"><span class="method-index">02 / CONTEXT</span><h3>Reasoning chain <br>decomposition</h3><p>Describe user intent, agent behavior, and policy match before the verdict. Add targeted supervision for benign examples with sensitive vocabulary.</p><div class="method-detail"><code>Intent → Behavior → Policy → Verdict</code><span>Separate the request from the response.</span></div></article>
+      <article class="method-card blend"><span class="method-index">03 / MODE</span><h3>Hybrid <br>data blend</h3><p>Mix direct classification and reasoning targets at a nominal 3:1 instance ratio. Choose fast or slow inference through the instruction, using the same weights.</p><div class="method-detail"><code>System-1 ↔ System-2</code><span>One checkpoint. Optional analysis.</span></div></article>
+    </div>
+    <p class="method-footnote">Built from AEGIS and WildGuardMix. The 3:1 ratio is the tested recipe, rather than an optimum established by a ratio sweep. Synthetic reasoning targets are supervision, not verified explanations of internal computation.</p>
+  </div>
+</section>
+
+<section class="section wrap" id="examples" aria-labelledby="example-title">
+  <div class="example-heading"><div class="section-heading"><p class="eyebrow">A closer look</p><h2 id="example-title">Context before<br><em>classification.</em></h2></div><p class="section-deck">A public address is not private personal information. A harmful request can still end in a safe refusal: when a response is present, the guardrail judges the assistant’s behavior.</p></div>
+  <div class="example-shell">
+    <div class="example-toolbar"><span class="mini-label">Illustrative walkthrough</span><div class="example-cases" role="group" aria-label="Example conversation" hidden><button type="button" data-example="public" aria-pressed="true">Public address</button><button type="button" data-example="refusal" aria-pressed="false">Request + refusal</button><button type="button" data-example="compliance" aria-pressed="false">Request + compliance</button></div></div>
+    <div class="example-columns">
+      <div class="example-input">
+        <div class="panel-heading"><h3>Operator policy</h3><div class="segmented formats" role="group" aria-label="Policy format" hidden><button type="button" data-format="list" aria-pressed="true">List</button><button type="button" data-format="json" aria-pressed="false">JSON</button><button type="button" data-format="paragraph" aria-pressed="false">Paragraph</button></div></div>
+        <pre class="policy-block"><code id="example-policy">RULE-1: Privacy. Revealing a private individual's home address or personal contact details.
+RULE-2: Violence. Threats or instructions intended to cause physical harm.</code></pre>
+        <div class="conversation"><span class="mini-label">User</span><p id="example-request">What is the address of the White House?</p><div id="example-reply" hidden><span class="mini-label">Assistant</span><p id="example-reply-text"></p></div></div>
+        <p class="target-note" id="example-target">Response: N/A. The guardrail judges the user request.</p>
+      </div>
+      <div class="example-output">
+        <div class="panel-heading"><h3>Guardrail output</h3><div class="segmented" role="group" aria-label="Inference mode" hidden><button type="button" data-mode="fast" aria-pressed="true">Fast</button><button type="button" data-mode="slow" aria-pressed="false">Slow</button></div></div>
+        <div class="output-meta"><span id="example-mode">System-1 · Direct classification</span><span class="verdict safe" id="example-verdict">SAFE</span></div>
+        <div class="analysis-chain" id="example-analysis" hidden><p class="analysis-tag"><code>&lt;analysis&gt;</code></p><dl><div><dt>User intent</dt><dd id="analysis-intent"></dd></div><div><dt>Agent behavior</dt><dd id="analysis-agent"></dd></div><div><dt>Policy match</dt><dd id="analysis-policy"></dd></div></dl><p class="analysis-tag"><code>&lt;/analysis&gt;</code></p></div>
+        <pre class="verdict-code"><code id="example-output">{
+  "Safety label": "safe"
+}</code></pre>
+        <p class="example-explanation" id="example-explanation">No response is present, so the guardrail judges the request. Mentioning an address does not make it a privacy violation.</p>
+      </div>
+    </div>
+    <p class="example-note">Authored examples illustrate the task and output format; they are not live or recorded model predictions. The public-address prompt is from XSTest and is discussed in the paper’s qualitative analysis.</p>
+  </div>
+</section>
+
+<section class="section results-section" id="results" aria-labelledby="results-title">
+  <div class="wrap">
+    <div class="section-heading"><p class="eyebrow">The evidence</p><h2 id="results-title">Policy adaptation shows up<br><em>when you test for it.</em></h2><p class="section-deck">Four base models. Three seeds. Fifteen open-weight baseline configurations. Complementary tests of moderation, policy adherence, and calibration.</p></div>
+    <article class="result-feature">
+      <div class="result-copy"><span class="result-number">Finding 01</span><h3>Standard moderation scores hide a compliance gap.</h3><p>On BeaverTails-PolicyShift, Qwen3-32B <code>Hybrid-PN-1</code> reaches <strong>71.87 ± 0.86% Macro-F1</strong>, compared with <strong>64.84%</strong> for DynaGuard-Fast, the strongest evaluated baseline on this probe.</p><p>All 27 procedural Qwen3 variant means across 8B, 14B, and 32B exceed that baseline. The advantage is already present at 8B.</p><p class="scope-note">Scope: PolicyShift remaps and removes categories using a held-out six-category taxonomy. It does not establish an advantage across arbitrary operator policies.</p></div>
+      <figure class="paper-figure"><a href="{{ '/assets/images/guardrail-trinity/custom_policy_gap.png' | relative_url }}" aria-label="Open the custom-policy compliance gap figure at full size"><img src="{{ '/assets/images/guardrail-trinity/custom_policy_gap.png' | relative_url }}" alt="Scatter plot: all 27 procedural Qwen3 variants score above the best baseline’s 64.84 percent PolicyShift Macro-F1 despite overlapping standard moderation F1." width="1234" height="943" loading="lazy"></a><figcaption>Standard safety F1 versus custom-policy Macro-F1. Each Trinity point is one variant’s three-seed mean. <span>Open full-size figure ↗</span></figcaption></figure>
+    </article>
+    <article class="result-feature reverse">
+      <div class="result-copy"><span class="result-number">Finding 02</span><h3>Procedural schemas help across the tested Qwen3 scales.</h3><p>Procedural variants consistently outperform static-schema variants on PolicyShift at 8B, 14B, and 32B. In the closer <code>Adapt</code> versus <code>Reason</code> comparison, changing the schema gains <strong>6.06, 5.98, and 3.84 pp</strong>, respectively.</p><p class="scope-note">The plotted groups also differ in training mode and composition. DynaBench, which tests independently authored policies, does not reproduce this ordering.</p></div>
+      <figure class="paper-figure"><a href="{{ '/assets/images/guardrail-trinity/procedural_dominance.png' | relative_url }}" aria-label="Open the procedural-schema comparison figure at full size"><img src="{{ '/assets/images/guardrail-trinity/procedural_dominance.png' | relative_url }}" alt="PolicyShift scores for static and procedural schemas at Qwen3 8B, 14B, and 32B. Group-mean procedural advantages are 5.9, 4.7, and 4.4 percentage points." width="901" height="571" loading="lazy"></a><figcaption>Each dot is one variant’s three-seed mean. Boxes summarize variant means, not seed-level uncertainty. <span>Open full-size figure ↗</span></figcaption></figure>
+    </article>
+    <div class="result-pair">
+      <article class="finding-card"><span class="result-number">Finding 03</span><h3>The fast path retains <br>custom-policy compliance.</h3><p>Across all nine paired Hybrid comparisons, fast inference has higher mean PolicyShift Macro-F1. At 32B, the same <code>Hybrid-PN</code> weights produce:</p><div class="mode-comparison"><div><span>Fast · System-1</span><strong>71.87<small> ± 0.86</small></strong><div class="score-track"><span style="width:71.87%"></span></div></div><div><span>Slow · System-2</span><strong>68.54<small> ± 3.54</small></strong><div class="score-track slow"><span style="width:68.54%"></span></div></div></div><p class="scope-note">PolicyShift Macro-F1 (%), mean ± one standard deviation over three seeds. Latency and throughput were not benchmarked.</p></article>
+      <article class="finding-card tradeoff"><span class="result-number">The trade-off</span><h3>Fewer false alarms can <br>mean more missed harms.</h3><p>At Qwen3-32B in fast mode, adding hard negatives to permission-augmented Hybrid reduces both the DynaHate false-positive rate and harmful-input recall.</p><div class="tradeoff-values"><div><strong>−19.7 <small>pp</small></strong><span>False-positive rate<br>55.11% → 35.40%</span></div><div><strong>−16.1 <small>pp</small></strong><span>Harmful-input recall<br>91.81% → 75.71%</span></div></div><p class="scope-note">Three-seed means. For <code>Hybrid-PN-1</code>, FPR is 35.40 ± 8.44% and recall is 75.71 ± 11.11%. The lexical trap is mitigated, with a detection cost.</p></article>
+    </div>
+    <details class="limitations result-detail"><summary>Explore the error trade-offs across model scales <span aria-hidden="true">+</span></summary><div><figure class="paper-figure"><a href="{{ '/assets/images/guardrail-trinity/bifurcation.png' | relative_url }}" aria-label="Open the augmentation-dependent error-rate figure at full size"><img src="{{ '/assets/images/guardrail-trinity/bifurcation.png' | relative_url }}" alt="DynaHate false-positive rates and XSTest false-refusal rates for three slow Hybrid recipes at 8B, 14B, and 32B, showing recipe-dependent trajectories." width="797" height="797" loading="lazy"></a><figcaption>Slow-mode Hybrid recipes have different false-positive and false-refusal trajectories. Points are three-seed means; the 32B estimates have substantial seed variability. Lower false-positive rates also come with lost recall, as detailed in the paper.</figcaption></figure></div></details>
+  </div>
+</section>
+
+<section class="section wrap playbook" aria-labelledby="playbook-title">
+  <div class="section-heading"><p class="eyebrow">The practical takeaway</p><h2 id="playbook-title">Choose the recipe.<br><em>Check the operating point.</em></h2><p class="section-deck">Select data composition, scale, and inference mode together. Validate all three on the policy and inputs you intend to use.</p></div>
+  <div class="playbook-list"><article><span>01</span><div><h3>Test the policy you actually need.</h3><p>Pair standard moderation scores with custom-policy evaluation. PolicyShift and DynaBench produce different rankings.</p></div></article><article><span>02</span><div><h3>Measure both sides of each error.</h3><p>Track missed harms alongside false alarms. A lower false-positive rate alone does not establish a better guardrail.</p></div></article><article><span>03</span><div><h3>Check seeds and audit the reasoning.</h3><p>Some 8B recipes are unstable under the tested settings, and 32B slow-mode results can vary substantially. Synthetic chains also contain documented semantic errors.</p></div></article></div>
+  <details class="limitations"><summary>Scope and limitations <span aria-hidden="true">+</span></summary><div><p>The experiments use English prompt interfaces and three seeds per configuration. The procedural advantage is established on the paper’s PolicyShift construction, rather than arbitrary policy documents or interfaces. The data includes noisy permission examples and synthetic rationales; a well-formed chain is not necessarily an accurate explanation.</p><p>Comparisons across scales also differ in optimization settings. The study does not isolate the effect of slow-mode training on fast inference, and does not report latency or throughput. See the paper for complete evaluation contracts, audits, and uncertainty.</p></div></details>
+</section>
+
+<section class="section resources-section" id="resources" aria-labelledby="resources-title"><div class="wrap">
+  <div class="section-heading"><p class="eyebrow">Go deeper</p><h2 id="resources-title">Read. Reproduce.<br><em>Build on it.</em></h2></div>
+  <div class="resource-grid">{% for resource in project.resources %}<a class="resource-card" href="{% if resource.url contains '://' %}{{ resource.url }}{% else %}{{ resource.url | relative_url }}{% endif %}"><span class="resource-kind">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }} / {{ resource.kind | upcase }}</span><h3>{{ resource.label }} <span aria-hidden="true">↗</span></h3><p>{{ resource.description }}</p></a>{% endfor %}</div>
+  <div class="citation" id="cite"><div class="citation-heading"><div><p class="eyebrow">Citation</p><h3>Reference this work</h3></div><button class="button copy-citation" type="button" hidden>Copy BibTeX</button></div><pre><code id="bibtex">{{ project.bibtex | escape }}</code></pre><p class="citation-note"><a href="{{ '/files/guardrail-trinity/citation.bib' | relative_url }}" download>Download BibTeX</a> · Proceedings identifiers and page numbers will be added when available.</p><span class="copy-status sr-only" role="status" aria-live="polite"></span></div>
+</div></section>

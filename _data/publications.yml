@@ -194,6 +194,10 @@
   details: "Main"
   selected: true
   topics: [ai-safety]
+  links:
+    project: "/guardrail-trinity/"
+    pdf: "/files/guardrail-trinity/paper.pdf"
+    code: "https://github.com/sbintuitions/GuardrailTrinity"
 
 - id: gcotd-2026
   type: conference
